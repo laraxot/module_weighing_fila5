@@ -7,6 +7,7 @@ namespace Modules\Media\Models;
 use Closure;
 use Exception;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\MassPrunable;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Carbon;
@@ -75,9 +76,15 @@ use Webmozart\Assert\Assert;
  */
 class TemporaryUpload extends BaseModel implements HasMedia
 {
+    use HasUuids;
     use HasXotFactory;
     use InteractsWithMedia;
     use MassPrunable;
+
+    public $incrementing = false;
+
+    /** @var string */
+    protected $keyType = 'string';
 
     public static ?Closure $manipulatePreview = null;
 

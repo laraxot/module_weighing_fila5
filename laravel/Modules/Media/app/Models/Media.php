@@ -141,7 +141,7 @@ class Media extends SpatieMedia
     protected function casts(): array
     {
         return [
-            'id' => 'string',
+            'id' => 'integer',
             'uuid' => 'string',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',

@@ -380,12 +380,19 @@ describe('Media Business Logic', function () {
 
         $makePayload = function (int $size) use ($user, $columns): array {
             $payload = TestCase::mediaPayloadSet([], $columns, 'user_id', $user->id);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'model_type', $user->getMorphClass());
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'model_id', $user->id);
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'file_size', $size);
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'size', $size);
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'file_name', 'test-file.pdf');
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'name', 'test-file');
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'disk', 'public');
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'collection_name', 'default');
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'mime_type', 'application/pdf');
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'manipulations', []);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'custom_properties', []);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'generated_conversions', []);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'responsive_images', []);
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'created_at', now());
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'updated_at', now());
 
@@ -413,12 +420,19 @@ describe('Media Business Logic', function () {
 
         $makePayload = function (string $mime, string $fileName) use ($user, $columns): array {
             $payload = TestCase::mediaPayloadSet([], $columns, 'user_id', $user->id);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'model_type', $user->getMorphClass());
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'model_id', $user->id);
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'mime_type', $mime);
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'file_name', $fileName);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'name', pathinfo($fileName, PATHINFO_FILENAME));
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'disk', 'public');
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'collection_name', 'default');
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'file_size', 123);
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'size', 123);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'manipulations', []);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'custom_properties', []);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'generated_conversions', []);
+            $payload = TestCase::mediaPayloadSet($payload, $columns, 'responsive_images', []);
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'created_at', now());
             $payload = TestCase::mediaPayloadSet($payload, $columns, 'updated_at', now());
 
