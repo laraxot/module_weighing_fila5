@@ -273,7 +273,7 @@ class TenantTest extends TestCase
         $result = $tenant->resolveRouteBindingQuery($query, 'my-tenant', 'slug');
 
         static::assertSame($query, $result);
-        static::assertContainsSame(['slug', 'my-tenant'], $calls);
+        $this->assertSame(['slug', 'my-tenant'], $calls);
     }
 
     public function test_resolve_route_binding_query_rifiuta_uuid_non_valido_sulla_chiave_univoca(): void
@@ -282,6 +282,7 @@ class TenantTest extends TestCase
 
         $this->expectException(ModelNotFoundException::class);
 
+        $this->expectExceptionCode(ModelNotFoundException::class);
         $tenant->resolveRouteBindingQuery(null, 'not-a-uuid', 'id');
     }
 
@@ -304,6 +305,6 @@ class TenantTest extends TestCase
         $result = $tenant->resolveRouteBindingQuery($query, $uuid, 'id');
 
         static::assertSame($query, $result);
-        static::assertContainsSame(['id', $uuid], $calls);
+        $this->assertSame(['id', $uuid], $calls);
     }
 }
