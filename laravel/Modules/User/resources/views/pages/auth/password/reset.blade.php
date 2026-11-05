@@ -18,7 +18,11 @@ name('password.request');
 >
     <div class="page-content content" data-dc data-side="content">
 <<<<<<< HEAD
+<<<<<<< HEAD
         @include('pub_theme::components.pages.auth.password-reset')
+=======
+        @include('pub_theme::components.pages.auth-password-reset')
+>>>>>>> laraxot/dev
 =======
         @include('pub_theme::components.pages.auth-password-reset')
 >>>>>>> laraxot/dev

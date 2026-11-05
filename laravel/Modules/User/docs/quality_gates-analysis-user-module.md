@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GTDEn0
 title: "Quality Gates Analysis — User Module"
 type: alias
@@ -20,6 +21,8 @@ qmd: "quality_gates-analysis-user-module alias superseded"
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 title: "Quality Gates Analysis: User Module"
 type: alias
 status: superseded
@@ -29,7 +32,10 @@ qmd: "quality_gates-analysis-user-module alias superseded"
 
 # Quality Gates Analysis: User Module
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> .merge_file_73guJ7
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 

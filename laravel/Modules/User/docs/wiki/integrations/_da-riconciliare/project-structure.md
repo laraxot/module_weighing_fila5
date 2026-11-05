@@ -8,6 +8,7 @@ related:
   - "./00-index.md"
   - "./00-index.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "../../../2fa-guide.md"
   - "./2fa.md"
   - "../../../accessor-delegation-pattern.md"
@@ -15,12 +16,17 @@ related:
   - "./actions-path-convention.md"
   - "../../../00-index-indice-documentazione-modulo-user.md"
 =======
+=======
+>>>>>>> laraxot/dev
   - "./2fa-guide.md"
   - "./2fa.md"
   - "./accessor-delegation-pattern.md"
   - "./actions-path-convention.md"
   - "./actions-path-convention.md"
   - "./00-index-indice-documentazione-modulo-user.md"
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   - "./00-index.md"
   - "../../../2fa-guide.md"
@@ -131,17 +137,23 @@ graph TD
 ## Riferimenti Globali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Project Wiki Root](../..)
 - [Global Rules](../../rules)
 - [Global Skills](../../skills)
 - [Global Commands](../../commands)
 - [Global Memories](../../memories)
 =======
+=======
+>>>>>>> laraxot/dev
 - [Project Wiki Root](../../docs/wiki/)
 - [Global Rules](../../docs/wiki/rules/)
 - [Global Skills](../../docs/wiki/skills/)
 - [Global Commands](../../docs/wiki/commands/)
 - [Global Memories](../../docs/wiki/memories/)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Project Wiki Root](../..)
 - [Global Rules](../../rules)
@@ -274,17 +286,23 @@ graph TD
 ## Riferimenti Globali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Project Wiki Root](../..)
 - [Global Rules](../../rules)
 - [Global Skills](../../skills)
 - [Global Commands](../../commands)
 - [Global Memories](../../memories)
 =======
+=======
+>>>>>>> laraxot/dev
 - [Project Wiki Root](../../docs/wiki/)
 - [Global Rules](../../docs/wiki/rules/)
 - [Global Skills](../../docs/wiki/skills/)
 - [Global Commands](../../docs/wiki/commands/)
 - [Global Memories](../../docs/wiki/memories/)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Project Wiki Root](../..)
 - [Global Rules](../../rules)

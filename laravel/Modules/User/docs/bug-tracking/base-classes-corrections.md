@@ -9,7 +9,11 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "../fixes/base-classes-corrections-.md"
+=======
+  - "./base-classes-corrections-.md"
+>>>>>>> laraxot/dev
 =======
   - "./base-classes-corrections-.md"
 >>>>>>> laraxot/dev

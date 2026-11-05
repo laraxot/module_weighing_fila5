@@ -10,6 +10,7 @@ qmd: "implementazione corretta delle pagine auth user"
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione centrale](../../../../docs/README.md)
 - [Collegamenti documentazione](../../../docs/collegamenti-documentazione.md)
 - [README modulo User](./README.md)
@@ -18,6 +19,8 @@ qmd: "implementazione corretta delle pagine auth user"
 - [Volt Folio Logout](./volt_folio_logout.md)
 - [Volt Logout Action](./volt_logout_action.md)
 =======
+=======
+>>>>>>> laraxot/dev
 - [Documentazione centrale](../../../docs/README.md)
 - [Collegamenti documentazione](../../../docs/collegamenti-documentazione.md)
 - [README modulo User](./README.md)
@@ -25,6 +28,9 @@ qmd: "implementazione corretta delle pagine auth user"
 - [Volt Errors](./VOLT_ERRORS.md)
 - [Volt Folio Logout](./VOLT_FOLIO_LOGOUT.md)
 - [Volt Logout Action](./VOLT_LOGOUT_ACTION.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 status: draft

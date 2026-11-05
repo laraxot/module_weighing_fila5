@@ -16,8 +16,12 @@ related:
   - "./console-commands.md"
   - "./README.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 status: superseded
 superseded_by: ../commands/console-commands-philosophy.md
+=======
+status: draft
+>>>>>>> laraxot/dev
 =======
 status: draft
 >>>>>>> laraxot/dev

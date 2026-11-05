@@ -1,6 +1,7 @@
 ---
 title: "Authentication Performance Optimization - User Module"
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ipiyIz
 <<<<<<< .merge_file_8Hb7XK
 type: note
@@ -14,10 +15,13 @@ superseded_by: authentication-performance-optimization.md
 >>>>>>> .merge_file_8HZqkO
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 type: alias
 status: superseded
 canonical: "performance/AUTHENTICATION-PERFORMANCE-OPTIMIZATION.md"
 qmd: "AUTHENTICATION_PERFORMANCE_OPTIMIZATION alias superseded"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ipiyIz
 >>>>>>> .merge_file_mSeHPG
@@ -130,6 +134,11 @@ qmd: "AUTHENTICATION_PERFORMANCE_OPTIMIZATION alias superseded"
 
 # Authentication Performance Optimization - User Module
 >>>>>>> .merge_file_8HZqkO
+=======
+---
+
+# Authentication Performance Optimization - User Module
+>>>>>>> laraxot/dev
 =======
 ---
 

@@ -11,6 +11,7 @@ qmd: "MODEL_INHERITANCE_ANALYSIS alias superseded"
 Documento identico al canonico: [MODEL-INHERITANCE-ANALYSIS.md](MODEL-INHERITANCE-ANALYSIS.md).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NfU8Gx
 <<<<<<< .merge_file_HynhnA
 **Nessun modello dentro i moduli deve estendere direttamente `Illuminate\Database\Eloquent\Model`.**
@@ -171,6 +172,9 @@ Canonico: `laravel/Modules/User/docs/wiki/integrations/MODEL-INHERITANCE-ANALYSI
 =======
 Canonico: `laravel/Modules/User/docs/wiki/integrations/MODEL-INHERITANCE-ANALYSIS.md`. Qui non ci sono istruzioni: seguire il file collegato.
 >>>>>>> .merge_file_aFfp8r
+=======
+Canonico: `laravel/Modules/User/docs/wiki/integrations/MODEL-INHERITANCE-ANALYSIS.md`. Qui non ci sono istruzioni: seguire il file collegato.
+>>>>>>> laraxot/dev
 =======
 Canonico: `laravel/Modules/User/docs/wiki/integrations/MODEL-INHERITANCE-ANALYSIS.md`. Qui non ci sono istruzioni: seguire il file collegato.
 >>>>>>> laraxot/dev

@@ -2,16 +2,22 @@
 title: "BMAD + Second Brain: Session Summary (2026-09-04)"
 type: note
 <<<<<<< HEAD
+<<<<<<< HEAD
 updated: 2026-10-21
 tags: [docs, user]
 qmd: "bmad + second brain   session summary (2026-09-04) user"
 status: superseded
 superseded_by: bmad-session.md
 =======
+=======
+>>>>>>> laraxot/dev
 status: draft
 updated: 2026-10-21
 tags: [docs, user]
 qmd: "bmad + second brain   session summary (2026-09-04) user"
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 

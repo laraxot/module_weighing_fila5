@@ -22,8 +22,12 @@ related:
   - "./console-commands.md"
   - "./README.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 status: superseded
 superseded_by: ../console-commands/change-password-command.md
+=======
+status: draft
+>>>>>>> laraxot/dev
 =======
 status: draft
 >>>>>>> laraxot/dev

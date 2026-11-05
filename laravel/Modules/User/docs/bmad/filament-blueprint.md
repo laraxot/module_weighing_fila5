@@ -49,9 +49,12 @@ In tabella si mostra con la chiave di traduzione del modulo, non con una label
 nel form. La registrazione del cittadino persiste `customer_user`.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 «Ricordami» è `Checkbox::make('remember')` nello stesso schema: il controllo è
 `input.fi-checkbox-input` di Filament, non un checkbox scritto nel tema.
 
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 La password del login è `TextInput::password()->revealable()` in

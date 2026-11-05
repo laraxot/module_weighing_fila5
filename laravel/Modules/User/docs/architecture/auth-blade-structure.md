@@ -12,7 +12,11 @@ related:
   - "./architecture.md"
   - "./component-registration.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./README.md"
+=======
+  - "./readme.md"
+>>>>>>> laraxot/dev
 =======
   - "./readme.md"
 >>>>>>> laraxot/dev

@@ -1089,6 +1089,7 @@ See [ROADMAP.md](./roadmap.md) for details.
 
 ### Internal Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Xot Module](../../Xot/docs/README.md) - Core foundation
 - [Activity Module](../../Activity/docs/README.md) - Activity tracking
 - [Lang Module](../../Lang/docs/README.md) - Translations
@@ -1098,6 +1099,8 @@ See [ROADMAP.md](./roadmap.md) for details.
 - [CLAUDE.md](../../../CLAUDE.md) - Project architecture
 - [Security Guidelines](../../../../docs/security.md)
 =======
+=======
+>>>>>>> laraxot/dev
 - [Xot Module](../Xot/docs/README.md) - Core foundation
 - [Activity Module](../Activity/docs/README.md) - Activity tracking
 - [Lang Module](../Lang/docs/README.md) - Translations
@@ -1106,6 +1109,9 @@ See [ROADMAP.md](./roadmap.md) for details.
 ### Project Documentation
 - [CLAUDE.md](../../../CLAUDE.md) - Project architecture
 - [Security Guidelines](../../../docs/security.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Xot Module](../../Xot/docs/README.md) - Core foundation
 - [Activity Module](../../Activity/docs/README.md) - Activity tracking

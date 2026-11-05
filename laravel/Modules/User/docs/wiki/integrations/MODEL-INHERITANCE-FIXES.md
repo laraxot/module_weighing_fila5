@@ -202,9 +202,15 @@ cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel/Modules/User
 - [Analisi Completa](./MODEL_INHERITANCE_ANALYSIS.md)
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
+=======
+- [BaseModel](../app/Models/BaseModel.php)
+- [BasePivot](../app/Models/BasePivot.php)
+- [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
+>>>>>>> laraxot/dev
 =======
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)

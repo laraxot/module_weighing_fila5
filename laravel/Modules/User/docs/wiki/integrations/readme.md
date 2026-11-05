@@ -11,6 +11,7 @@ related:
   - "./00-index.md"
   - "./00-index.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "../../2fa-guide.md"
   - "./2fa.md"
   - "../../accessor-delegation-pattern.md"
@@ -18,12 +19,17 @@ related:
   - "./actions-path-convention.md"
   - "../../00-index-indice-documentazione-modulo-user.md"
 =======
+=======
+>>>>>>> laraxot/dev
   - "./2fa-guide.md"
   - "./2fa.md"
   - "./accessor-delegation-pattern.md"
   - "./actions-path-convention.md"
   - "./actions-path-convention.md"
   - "./00-index-indice-documentazione-modulo-user.md"
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   - "./00-index.md"
   - "../../2fa-guide.md"
@@ -1058,7 +1064,11 @@ test('user can switch teams', function () {
 ### Troubleshooting
 - [Common Issues](./troubleshooting/common-issues.md) - Frequently encountered problems
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Login Component Troubleshooting](../../troubleshooting-login-component.md) - Login widget issues
+=======
+- [Login Component Troubleshooting](./troubleshooting-login-component.md) - Login widget issues
+>>>>>>> laraxot/dev
 =======
 - [Login Component Troubleshooting](./troubleshooting-login-component.md) - Login widget issues
 >>>>>>> laraxot/dev
@@ -1106,6 +1116,7 @@ See [ROADMAP.md](./roadmap.md) for details.
 
 ### Internal Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Xot Module](../../../../Xot/docs/README.md) - Core foundation
 - [Activity Module](../../../../Activity/docs/README.md) - Activity tracking
 - [Lang Module](../../../../Lang/docs/README.md) - Translations
@@ -1115,6 +1126,8 @@ See [ROADMAP.md](./roadmap.md) for details.
 - [CLAUDE.md](../../../../../CLAUDE.md) - Project architecture
 - [Security Guidelines](../../../../../../docs/security.md)
 =======
+=======
+>>>>>>> laraxot/dev
 - [Xot Module](../Xot/docs/README.md) - Core foundation
 - [Activity Module](../Activity/docs/README.md) - Activity tracking
 - [Lang Module](../Lang/docs/README.md) - Translations
@@ -1123,6 +1136,9 @@ See [ROADMAP.md](./roadmap.md) for details.
 ### Project Documentation
 - [CLAUDE.md](../../../CLAUDE.md) - Project architecture
 - [Security Guidelines](../../../docs/security.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Xot Module](../../../../Xot/docs/README.md) - Core foundation
 - [Activity Module](../../../../Activity/docs/README.md) - Activity tracking

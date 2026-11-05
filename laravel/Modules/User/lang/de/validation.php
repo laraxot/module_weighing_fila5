@@ -12,7 +12,10 @@ return array_replace_recursive(
         'date_equals' => 'Das Feld :attribute muss ein Datum gleich :date sein.',
         'ends_with' => 'Das Feld :attribute muss mit einem der folgenden Werte enden: :values.',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'file' => 'Das Feld :attribute muss eine Datei sein.',
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
         'gt' => [
@@ -53,7 +56,11 @@ return array_replace_recursive(
         ],
         'starts_with' => 'Das Feld :attribute muss mit einem der folgenden Werte beginnen: :values.',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'uploaded' => 'Hochladen fehlgeschlagen: Die Datei ist möglicherweise zu groß. Versuche es mit einer kleineren Datei.',
+=======
+        'uploaded' => 'Das Hochladen von :attribute ist fehlgeschlagen.',
+>>>>>>> laraxot/dev
 =======
         'uploaded' => 'Das Hochladen von :attribute ist fehlgeschlagen.',
 >>>>>>> laraxot/dev

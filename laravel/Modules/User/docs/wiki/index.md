@@ -11,7 +11,11 @@ discussions:
 related:
   - "./agents.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./Architecture.md"
+=======
+  - "./architecture.md"
+>>>>>>> laraxot/dev
 =======
   - "./architecture.md"
 >>>>>>> laraxot/dev
@@ -62,6 +66,11 @@ Indice operativo del wiki User.
 
 Gestione utenti, profili, ruoli, permessi e autenticazione social (Socialite).
 
+<<<<<<< HEAD
+=======
+- [model-relationship-traits](./concepts/model-relationship-traits.md): relazioni Eloquent in trait dedicati, con override e pivot preservati.
+
+>>>>>>> laraxot/dev
 ## Runtime config & schema (2026-07-27)
 
 | Pagina | Argomento |

@@ -5,7 +5,10 @@ status: completed
 updated: 2026-10-21
 tags: [phpstan, user, seeder, contract, fix]
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd: "user   seeders `getconsolecommand()` user"
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

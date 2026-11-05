@@ -20,7 +20,11 @@ Documentation for `user` module categorized as **product**.
 - [`generic_user_moderation_strategy.md`](./generic_user_moderation_strategy.md)
 - [`product-strategy.md`](./product-strategy.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [`strategy.md`](../../../strategy.md)
+=======
+- [`strategy.md`](./strategy.md)
+>>>>>>> laraxot/dev
 =======
 - [`strategy.md`](./strategy.md)
 >>>>>>> laraxot/dev

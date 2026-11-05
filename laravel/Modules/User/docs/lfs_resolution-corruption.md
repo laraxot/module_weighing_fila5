@@ -3,6 +3,7 @@ title: "LFS Corruption Resolution"
 type: alias
 status: superseded
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xODv2h
 <<<<<<< .merge_file_8AgU99
 superseded_by: lfs-resolution.md
@@ -18,6 +19,10 @@ qmd: "lfs_resolution-corruption alias superseded"
 canonical: "LFS_RESOLUTION-corruption.md"
 qmd: "lfs_resolution-corruption alias superseded"
 >>>>>>> .merge_file_w1guDf
+=======
+canonical: "LFS_RESOLUTION-corruption.md"
+qmd: "lfs_resolution-corruption alias superseded"
+>>>>>>> laraxot/dev
 =======
 canonical: "LFS_RESOLUTION-corruption.md"
 qmd: "lfs_resolution-corruption alias superseded"

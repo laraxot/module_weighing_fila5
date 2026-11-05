@@ -108,15 +108,21 @@ graph TD
 
 - [Project Wiki Root](../../docs/wiki/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Global Rules](wiki/rules)
 - [Global Skills](wiki/skills)
 - [Global Commands](wiki/commands)
 - [Global Memories](wiki/memories)
 =======
+=======
+>>>>>>> laraxot/dev
 - [Global Rules](../../docs/wiki/rules/)
 - [Global Skills](../../docs/wiki/skills/)
 - [Global Commands](../../docs/wiki/commands/)
 - [Global Memories](../../docs/wiki/memories/)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Global Rules](wiki/rules)
 - [Global Skills](wiki/skills)

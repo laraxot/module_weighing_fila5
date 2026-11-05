@@ -73,15 +73,21 @@ related:
 ### User Module
 - [User Factory Integration](./user-factory-integration.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [User Factory Integration](../../user-factory-integration-module.md)
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [BaseUser Architecture](../../parental-inheritance.md)
 =======
+=======
+>>>>>>> laraxot/dev
 - [Traits Complete Guide](./traits-complete-guide-aggiornato-post.md)
 - [User Factory Integration](../../user-factory-integration-module.md)
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [BaseUser Architecture](./parental-inheritance.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### Root Documentation  
@@ -416,15 +422,21 @@ public function run(): void
 ### User Module
 - [User Factory Integration](./user-factory-integration.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [User Factory Integration](../../user-factory-integration-module.md)
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [BaseUser Architecture](../../parental-inheritance.md)
 =======
+=======
+>>>>>>> laraxot/dev
 - [Traits Complete Guide](./traits-complete-guide-aggiornato-post.md)
 - [User Factory Integration](../../user-factory-integration-module.md)
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [BaseUser Architecture](./parental-inheritance.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### Root Documentation
@@ -720,15 +732,21 @@ public function run(): void
 ### User Module
 - [User Factory Integration](./user-factory-integration.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [User Factory Integration](../../user-factory-integration-module.md)
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [BaseUser Architecture](../../parental-inheritance.md)
 =======
+=======
+>>>>>>> laraxot/dev
 - [Traits Complete Guide](./traits-complete-guide-aggiornato-post.md)
 - [User Factory Integration](../../user-factory-integration-module.md)
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [BaseUser Architecture](./parental-inheritance.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### Root Documentation
@@ -1990,8 +2008,13 @@ public function test_bulk_sti_creation()
 ### User Module
 - [BaseUser Documentation](../user/docs/baseuser_conflicts.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [Authentication Framework](../../authentication.md)
+=======
+- [Traits Complete Guide](../user/docs/traits-complete-guide-aggiornato-post.md)
+- [Authentication Framework](../user/docs/authentication.md)
+>>>>>>> laraxot/dev
 =======
 - [Traits Complete Guide](../user/docs/traits-complete-guide-aggiornato-post.md)
 - [Authentication Framework](../user/docs/authentication.md)
@@ -2354,8 +2377,13 @@ public function test_bulk_sti_creation()
 ### User Module
 - [BaseUser Documentation](../user/docs/baseuser_conflicts.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Traits Complete Guide](../../traits-complete-guide-aggiornato-post.md)
 - [Authentication Framework](../../authentication.md)
+=======
+- [Traits Complete Guide](../user/docs/traits-complete-guide-aggiornato-post.md)
+- [Authentication Framework](../user/docs/authentication.md)
+>>>>>>> laraxot/dev
 =======
 - [Traits Complete Guide](../user/docs/traits-complete-guide-aggiornato-post.md)
 - [Authentication Framework](../user/docs/authentication.md)
@@ -4018,7 +4046,11 @@ public function run(): void
 - [User Factory Integration](./user_factory_integration.md)
 - [Traits Complete Guide](./traits_complete_guide.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseUser Architecture](../../parental-inheritance.md)
+=======
+- [BaseUser Architecture](./parental_inheritance.md)
+>>>>>>> laraxot/dev
 =======
 - [BaseUser Architecture](./parental_inheritance.md)
 >>>>>>> laraxot/dev
@@ -4799,8 +4831,13 @@ public function test_bulk_sti_creation()
 ### User Module
 - [BaseUser Documentation](../User/docs/baseuser_conflicts.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Traits Complete Guide](../../traits_complete_guide.md)
 - [Authentication Framework](../../authentication.md)
+=======
+- [Traits Complete Guide](../User/docs/traits_complete_guide.md)
+- [Authentication Framework](../User/docs/authentication.md)
+>>>>>>> laraxot/dev
 =======
 - [Traits Complete Guide](../User/docs/traits_complete_guide.md)
 - [Authentication Framework](../User/docs/authentication.md)

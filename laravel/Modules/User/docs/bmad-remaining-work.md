@@ -8,7 +8,11 @@ updated: 2026-10-26
 tags: [bmad, user, module, stories, remaining-work]
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../../../docs/second-brain/project/bmad-architecture.md
+=======
+  - ../../docs/second-brain/project/bmad-architecture.md
+>>>>>>> laraxot/dev
 =======
   - ../../docs/second-brain/project/bmad-architecture.md
 >>>>>>> laraxot/dev

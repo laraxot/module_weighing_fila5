@@ -64,7 +64,11 @@ phpstan analyse app --level=10
 ## Related Docs
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [`phpstan-l10-compliance.md`](../../../../../../docs/wiki/rules/phpstan-l10-compliance.md)
+=======
+- [`phpstan-l10-compliance.md`](../../../docs/wiki/rules/phpstan-l10-compliance.md)
+>>>>>>> laraxot/dev
 =======
 - [`phpstan-l10-compliance.md`](../../../docs/wiki/rules/phpstan-l10-compliance.md)
 >>>>>>> laraxot/dev

@@ -232,6 +232,7 @@ Dopo le modifiche, eseguire:
 
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
@@ -239,12 +240,17 @@ Dopo le modifiche, eseguire:
 - [XotBasePivot](../../../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../../../Xot/app/Models/XotBaseMorphPivot.php)
 =======
+=======
+>>>>>>> laraxot/dev
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
 - [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
 - [XotBaseModel](../../Xot/app/Models/XotBaseModel.php)
 - [XotBasePivot](../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../Xot/app/Models/XotBaseMorphPivot.php)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
@@ -426,6 +432,7 @@ Dopo le modifiche, eseguire:
 
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
@@ -433,12 +440,17 @@ Dopo le modifiche, eseguire:
 - [XotBasePivot](../../../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../../../Xot/app/Models/XotBaseMorphPivot.php)
 =======
+=======
+>>>>>>> laraxot/dev
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
 - [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
 - [XotBaseModel](../../Xot/app/Models/XotBaseModel.php)
 - [XotBasePivot](../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../Xot/app/Models/XotBaseMorphPivot.php)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
@@ -620,6 +632,7 @@ Dopo le modifiche, eseguire:
 
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
@@ -627,12 +640,17 @@ Dopo le modifiche, eseguire:
 - [XotBasePivot](../../../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../../../Xot/app/Models/XotBaseMorphPivot.php)
 =======
+=======
+>>>>>>> laraxot/dev
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
 - [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
 - [XotBaseModel](../../Xot/app/Models/XotBaseModel.php)
 - [XotBasePivot](../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../Xot/app/Models/XotBaseMorphPivot.php)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
@@ -814,6 +832,7 @@ Dopo le modifiche, eseguire:
 
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
@@ -821,12 +840,17 @@ Dopo le modifiche, eseguire:
 - [XotBasePivot](../../../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../../../Xot/app/Models/XotBaseMorphPivot.php)
 =======
+=======
+>>>>>>> laraxot/dev
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
 - [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
 - [XotBaseModel](../../Xot/app/Models/XotBaseModel.php)
 - [XotBasePivot](../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../Xot/app/Models/XotBaseMorphPivot.php)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
@@ -1055,9 +1079,15 @@ cd /var/www/_bases/base_<nome progetto>_fila4_mono/laravel/Modules/User
 - [Analisi Completa](./model-inheritance-analysis.md)
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
+=======
+- [BaseModel](../app/Models/BaseModel.php)
+- [BasePivot](../app/Models/BasePivot.php)
+- [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
+>>>>>>> laraxot/dev
 =======
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
@@ -1289,9 +1319,15 @@ cd /var/www/_bases/base_quaeris_fila4_mono/laravel/Modules/User
 - [Analisi Completa](./model-inheritance-analysis.md)
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
+=======
+- [BaseModel](../app/Models/BaseModel.php)
+- [BasePivot](../app/Models/BasePivot.php)
+- [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
+>>>>>>> laraxot/dev
 =======
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
@@ -1333,9 +1369,15 @@ related:
 - [Analisi Completa](./model-inheritance-analysis.md)
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
+=======
+- [BaseModel](../app/Models/BaseModel.php)
+- [BasePivot](../app/Models/BasePivot.php)
+- [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
+>>>>>>> laraxot/dev
 =======
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
@@ -1621,8 +1663,13 @@ Prima di creare un nuovo modello, verifica:
 ## Link Correlati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Xot BaseModel](../../../../Xot/docs/model-inheritance-rules.md)
 - [Documentazione Geo Model Pattern](../../../../Geo/docs/model-inheritance-pattern.md)
+=======
+- [Documentazione Xot BaseModel](../../xot/docs/model-inheritance-rules.md)
+- [Documentazione Geo Model Pattern](../../geo/docs/model-inheritance-pattern.md)
+>>>>>>> laraxot/dev
 =======
 - [Documentazione Xot BaseModel](../../xot/docs/model-inheritance-rules.md)
 - [Documentazione Geo Model Pattern](../../geo/docs/model-inheritance-pattern.md)
@@ -1863,6 +1910,7 @@ Dopo le modifiche, eseguire:
 
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
@@ -1870,12 +1918,17 @@ Dopo le modifiche, eseguire:
 - [XotBasePivot](../../../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../../../Xot/app/Models/XotBaseMorphPivot.php)
 =======
+=======
+>>>>>>> laraxot/dev
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
 - [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
 - [XotBaseModel](../../Xot/app/Models/XotBaseModel.php)
 - [XotBasePivot](../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../Xot/app/Models/XotBaseMorphPivot.php)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
@@ -2104,9 +2157,15 @@ cd Modules/User
 - [Analisi Completa](./model-inheritance-analysis.md)
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
+=======
+- [BaseModel](../app/Models/BaseModel.php)
+- [BasePivot](../app/Models/BasePivot.php)
+- [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
+>>>>>>> laraxot/dev
 =======
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
@@ -2309,9 +2368,15 @@ cd Modules/User
 - [Analisi Completa](./model-inheritance-analysis.md)
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
+=======
+- [BaseModel](../app/Models/BaseModel.php)
+- [BasePivot](../app/Models/BasePivot.php)
+- [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
+>>>>>>> laraxot/dev
 =======
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
@@ -2514,9 +2579,15 @@ cd Modules/User
 - [Analisi Completa](./model-inheritance-analysis.md)
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
+=======
+- [BaseModel](../app/Models/BaseModel.php)
+- [BasePivot](../app/Models/BasePivot.php)
+- [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
+>>>>>>> laraxot/dev
 =======
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
@@ -2678,6 +2749,7 @@ Dopo le modifiche, eseguire:
 
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
@@ -2685,12 +2757,17 @@ Dopo le modifiche, eseguire:
 - [XotBasePivot](../../../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../../../Xot/app/Models/XotBaseMorphPivot.php)
 =======
+=======
+>>>>>>> laraxot/dev
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
 - [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
 - [XotBaseModel](../../Xot/app/Models/XotBaseModel.php)
 - [XotBasePivot](../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../Xot/app/Models/XotBaseMorphPivot.php)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
@@ -2896,9 +2973,15 @@ cd /var/www/_bases/base_quaeris_fila4_mono/laravel/Modules/User
 - [Analisi Completa](./MODEL_INHERITANCE_ANALYSIS.md)
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
+=======
+- [BaseModel](../app/Models/BaseModel.php)
+- [BasePivot](../app/Models/BasePivot.php)
+- [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
+>>>>>>> laraxot/dev
 =======
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
@@ -3125,7 +3208,11 @@ Tutti i file factory devono essere validati con PHPStan livello 9:
 - [SaluteOra Module](../../SaluteOra/docs/modelli_factory_seeder_analisi.md)
 - [Tenant Module](../../Tenant/docs/modelli_factory_seeder_analisi.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Notify Module](../../../../Notify/docs/modelli_factory_seeder_analisi.md)
+=======
+- [Notify Module](../../Notify/docs/modelli_factory_seeder_analisi.md)
+>>>>>>> laraxot/dev
 =======
 - [Notify Module](../../Notify/docs/modelli_factory_seeder_analisi.md)
 >>>>>>> laraxot/dev

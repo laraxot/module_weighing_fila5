@@ -14,7 +14,11 @@ track: quality/fleet
 qmd: "user comment dependency decouple architecture bm ad blueprint"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../architecture/user-gdpr-decoupling.md
+=======
+  - ./user-gdpr-decoupling.md
+>>>>>>> laraxot/dev
 =======
   - ./user-gdpr-decoupling.md
 >>>>>>> laraxot/dev

@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tvaVw2
 # ImageSpatie / SpatieDocumentUpload — Filament Blueprint
 =======
 # ImageSpatie / SpatieDocumentUpload: Filament Blueprint
 >>>>>>> .merge_file_5eMx81
+=======
+# ImageSpatie / SpatieDocumentUpload: Filament Blueprint
+>>>>>>> laraxot/dev
 =======
 # ImageSpatie / SpatieDocumentUpload: Filament Blueprint
 >>>>>>> laraxot/dev

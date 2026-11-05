@@ -11,6 +11,7 @@ related:
   - "./00-index.md"
   - "./00-index.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "../../../2fa-guide.md"
   - "./2fa.md"
   - "../../../accessor-delegation-pattern.md"
@@ -18,12 +19,17 @@ related:
   - "./actions-path-convention.md"
   - "../../../00-index-indice-documentazione-modulo-user.md"
 =======
+=======
+>>>>>>> laraxot/dev
   - "./2fa-guide.md"
   - "./2fa.md"
   - "./accessor-delegation-pattern.md"
   - "./actions-path-convention.md"
   - "./actions-path-convention.md"
   - "./00-index-indice-documentazione-modulo-user.md"
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   - "./00-index.md"
   - "../../../2fa-guide.md"

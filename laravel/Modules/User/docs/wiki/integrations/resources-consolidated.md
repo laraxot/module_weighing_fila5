@@ -266,7 +266,11 @@ public static function getTableColumns(): array
 - [XotBaseResource Source Code](../../../../Xot/app/Filament/Resources/XotBaseResource.php)
 - [XotBaseResource Source Code](../../../../Xot/app/Filament/Resources/XotBaseResource.php)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Critical Filament Rule: getInfolistSchema String Keys](../../critical-filament-rule-getinfolistschema-string-keys.md)
+=======
+- [Critical Filament Rule: getInfolistSchema String Keys](./critical-filament-rule-getinfolistschema-string-keys.md)
+>>>>>>> laraxot/dev
 =======
 - [Critical Filament Rule: getInfolistSchema String Keys](./critical-filament-rule-getinfolistschema-string-keys.md)
 >>>>>>> laraxot/dev
@@ -479,9 +483,15 @@ use Filament\Tables\Actions\ViewAction; // Namespace sbagliato
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotBaseResource getPages() Automatic](../../xotbase-resource-getpages-automatic.md)
 - [Resources Array Keys Philosophy](../../resources-array-keys-philosophy.md)
 - [Filament Resources Philosophical Debate](../../filament-resources-philosophical-debate.md)
+=======
+- [XotBaseResource getPages() Automatic](./xotbase-resource-getpages-automatic.md)
+- [Resources Array Keys Philosophy](./resources-array-keys-philosophy.md)
+- [Filament Resources Philosophical Debate](./filament-resources-philosophical-debate.md)
+>>>>>>> laraxot/dev
 =======
 - [XotBaseResource getPages() Automatic](./xotbase-resource-getpages-automatic.md)
 - [Resources Array Keys Philosophy](./resources-array-keys-philosophy.md)
@@ -671,9 +681,15 @@ use Filament\Tables\Actions\ViewAction; // Namespace sbagliato
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotBaseResource getPages() Automatic](../../xotbase-resource-getpages-automatic.md)
 - [Resources Array Keys Philosophy](../../resources-array-keys-philosophy.md)
 - [Filament Resources Philosophical Debate](../../filament-resources-philosophical-debate.md)
+=======
+- [XotBaseResource getPages() Automatic](./xotbase-resource-getpages-automatic.md)
+- [Resources Array Keys Philosophy](./resources-array-keys-philosophy.md)
+- [Filament Resources Philosophical Debate](./filament-resources-philosophical-debate.md)
+>>>>>>> laraxot/dev
 =======
 - [XotBaseResource getPages() Automatic](./xotbase-resource-getpages-automatic.md)
 - [Resources Array Keys Philosophy](./resources-array-keys-philosophy.md)

@@ -275,7 +275,11 @@ Nessuna funzionalità critica - il modulo User funziona bene con relation manage
 
 - [Filament 5.x Nesting Documentation](https://filamentphp.com/docs/5.x/resources/nesting)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [User Module README](./README.md)
+=======
+- [User Module README](./readme.md)
+>>>>>>> laraxot/dev
 =======
 - [User Module README](./readme.md)
 >>>>>>> laraxot/dev

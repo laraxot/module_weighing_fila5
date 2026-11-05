@@ -4,10 +4,13 @@ date: 2026-07-28
 status: superseded
 superseded_by: quality-gates.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 type: note
 updated: 2026-10-27
 tags: [docs, user]
 qmd: "quality gates analysis   laravel/modules/user user"
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---

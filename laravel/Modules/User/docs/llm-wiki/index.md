@@ -59,7 +59,11 @@ _No troubleshooting pages created yet_
 
 - [Laraxot Architecture](../../docs/wiki/concepts/laraxot-architecture.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Actions Over Services](../../../../../docs/wiki/concepts/actions-over-services.md)
+=======
+- [Actions Over Services](../../docs/wiki/concepts/actions-over-services.md)
+>>>>>>> laraxot/dev
 =======
 - [Actions Over Services](../../docs/wiki/concepts/actions-over-services.md)
 >>>>>>> laraxot/dev

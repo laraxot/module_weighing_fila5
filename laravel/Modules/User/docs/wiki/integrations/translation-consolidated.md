@@ -663,7 +663,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Questo file è stato rinominato in [translation-city-field-refactor-3.md](../../translation-city-field-refactor.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+=======
+> Questo file è stato rinominato in [translation-city-field-refactor-3.md](translation-city-field-refactor.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> laraxot/dev
 =======
 > Questo file è stato rinominato in [translation-city-field-refactor-3.md](translation-city-field-refactor.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 >>>>>>> laraxot/dev
@@ -725,7 +729,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Questo file è stato rinominato in [translation-city-field-refactor-.deprecated.md](../../translation-city-field-refactor-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+=======
+> Questo file è stato rinominato in [translation-city-field-refactor-.deprecated.md](translation-city-field-refactor-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> laraxot/dev
 =======
 > Questo file è stato rinominato in [translation-city-field-refactor-.deprecated.md](translation-city-field-refactor-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 >>>>>>> laraxot/dev

@@ -103,8 +103,13 @@ Nel trait `HasTeams` sono presenti diversi metodi con lo stesso nome ma implemen
 - [Best practices trait](./best-practices-traits.md)
 - [Refactor checklist](./refactor-checklist.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotData helper](../../Xot/docs/standards/README.md)
 - [XotData helper](../../Xot/docs/standards/README.md)
+=======
+- [XotData helper](../../xot/docs/standards/readme.md)
+- [XotData helper](../../Xot/docs/standards/readme.md)
+>>>>>>> laraxot/dev
 =======
 - [XotData helper](../../xot/docs/standards/readme.md)
 - [XotData helper](../../Xot/docs/standards/readme.md)
@@ -122,7 +127,11 @@ Quando si implementano trait come HasTeams, è fondamentale tipizzare e accettar
 - manutenibilità e flessibilità futura
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per la motivazione dettagliata, vedi la sezione dedicata in [Team.md](./models/team.md#motivazione-preferire-teamcontract-a-team-nei-trait-e-nei-metodi). 
+=======
+Per la motivazione dettagliata, vedi la sezione dedicata in [Team.md](./Models/Team.md#motivazione-preferire-teamcontract-a-team-nei-trait-e-nei-metodi). 
+>>>>>>> laraxot/dev
 =======
 Per la motivazione dettagliata, vedi la sezione dedicata in [Team.md](./Models/Team.md#motivazione-preferire-teamcontract-a-team-nei-trait-e-nei-metodi). 
 >>>>>>> laraxot/dev

@@ -319,7 +319,11 @@ public function getTableColumns(): array
 - [AUTHENTICATION_PERFORMANCE_OPTIMIZATION.md](./performance/AUTHENTICATION_PERFORMANCE_OPTIMIZATION.md)
 - [optimization-analysis.md](./optimization-analysis.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [phpstan-compliance.md](../../phpstan-compliance.md)
+=======
+- [phpstan-compliance.md](./phpstan-compliance.md)
+>>>>>>> laraxot/dev
 =======
 - [phpstan-compliance.md](./phpstan-compliance.md)
 >>>>>>> laraxot/dev

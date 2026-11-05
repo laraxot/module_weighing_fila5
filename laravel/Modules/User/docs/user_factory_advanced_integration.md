@@ -297,7 +297,11 @@ public function run(): void
 - [User Factory Integration](./user_factory_integration.md)
 - [Traits Complete Guide](./traits_complete_guide.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseUser Architecture](./parental-inheritance.md)
+=======
+- [BaseUser Architecture](./parental_inheritance.md)
+>>>>>>> laraxot/dev
 =======
 - [BaseUser Architecture](./parental_inheritance.md)
 >>>>>>> laraxot/dev

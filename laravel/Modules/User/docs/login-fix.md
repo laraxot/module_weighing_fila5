@@ -7,6 +7,7 @@ tags: [docs, user]
 qmd: "fix credenziali login   bmad + second brain user"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MavgwB
 # Fix credenziali login — BMAD + second brain
 Scopo: assicurare che marco.sottana@gmail.com con la propria password possa accedere.
@@ -14,6 +15,10 @@ Scopo: assicurare che marco.sottana@gmail.com con la propria password possa acce
 # Fix credenziali login: BMAD + second brain
 Scopo: assicurare che marco.sottana@gmail.com con prova123 possa accedere.
 >>>>>>> .merge_file_Va3qsm
+=======
+# Fix credenziali login: BMAD + second brain
+Scopo: assicurare che marco.sottana@gmail.com con prova123 possa accedere.
+>>>>>>> laraxot/dev
 =======
 # Fix credenziali login: BMAD + second brain
 Scopo: assicurare che marco.sottana@gmail.com con prova123 possa accedere.

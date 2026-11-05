@@ -267,7 +267,11 @@ The <nome progetto> Team'
 ## Collegamenti Bidirezionali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Email Doctor Registration](email-doctor-registration.md)
+=======
+- [Email Doctor Registration](docs/email-doctor-registration.md)
+>>>>>>> laraxot/dev
 =======
 - [Email Doctor Registration](docs/email-doctor-registration.md)
 >>>>>>> laraxot/dev

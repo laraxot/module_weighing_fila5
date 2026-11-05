@@ -1,10 +1,14 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_otcJWm
 title: "PHPStan Level 10 Compliance — User Module"
 =======
 title: "PHPStan Level 10 Compliance: User Module"
 >>>>>>> .merge_file_EtNtgn
+=======
+title: "PHPStan Level 10 Compliance: User Module"
+>>>>>>> laraxot/dev
 =======
 title: "PHPStan Level 10 Compliance: User Module"
 >>>>>>> laraxot/dev
@@ -18,6 +22,7 @@ qmd: "phpstan_l10 alias superseded"
 
 Documento identico al canonico: [PHPSTAN_L10.md](PHPSTAN_L10.md).
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_otcJWm
 <<<<<<< .merge_file_swThPG
@@ -81,6 +86,9 @@ Canonico: `laravel/Modules/User/docs/wiki/integrations/PHPSTAN_L10.md`. Qui non 
 =======
 Canonico: `laravel/Modules/User/docs/wiki/integrations/PHPSTAN_L10.md`. Qui non ci sono istruzioni: seguire il file collegato.
 >>>>>>> .merge_file_EtNtgn
+=======
+Canonico: `laravel/Modules/User/docs/wiki/integrations/PHPSTAN_L10.md`. Qui non ci sono istruzioni: seguire il file collegato.
+>>>>>>> laraxot/dev
 =======
 Canonico: `laravel/Modules/User/docs/wiki/integrations/PHPSTAN_L10.md`. Qui non ci sono istruzioni: seguire il file collegato.
 >>>>>>> laraxot/dev

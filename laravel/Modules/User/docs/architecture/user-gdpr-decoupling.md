@@ -13,7 +13,11 @@ related:
   - "./auth-blade-structure.md"
   - "./component-registration.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./README.md"
+=======
+  - "./readme.md"
+>>>>>>> laraxot/dev
 =======
   - "./readme.md"
 >>>>>>> laraxot/dev
@@ -115,7 +119,11 @@ The same pattern can be used for:
 
 - [RegisterWidget Documentation](register-widget.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [GDPR Compliance Guide](../gdpr/compliance.md)
+=======
+- [GDPR Compliance Guide](compliance.md)
+>>>>>>> laraxot/dev
 =======
 - [GDPR Compliance Guide](compliance.md)
 >>>>>>> laraxot/dev

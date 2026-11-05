@@ -1,10 +1,14 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eiMGYA
 title: "Quality Gates Analysis — User Module"
 =======
 title: "Quality Gates Analysis: User Module"
 >>>>>>> .merge_file_CDvsCq
+=======
+title: "Quality Gates Analysis: User Module"
+>>>>>>> laraxot/dev
 =======
 title: "Quality Gates Analysis: User Module"
 >>>>>>> laraxot/dev
@@ -15,11 +19,15 @@ qmd: "QUALITY_GATES alias superseded"
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eiMGYA
 # Quality Gates Analysis — User Module
 =======
 # Quality Gates Analysis: User Module
 >>>>>>> .merge_file_CDvsCq
+=======
+# Quality Gates Analysis: User Module
+>>>>>>> laraxot/dev
 =======
 # Quality Gates Analysis: User Module
 >>>>>>> laraxot/dev

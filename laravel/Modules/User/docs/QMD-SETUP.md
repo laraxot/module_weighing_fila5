@@ -6,7 +6,11 @@ updated: 2026-05-11
 tags: [qmd, search, docs, performance]
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../../../docs/wiki/concepts/llm-wiki-operational-discipline.md
+=======
+  - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
+>>>>>>> laraxot/dev
 =======
   - ../../docs/wiki/concepts/llm-wiki-operational-discipline.md
 >>>>>>> laraxot/dev
@@ -72,7 +76,11 @@ qmd search "form" -c user  # Solo questo modulo
 
 - [Global QMD Config](../qmd.md) (root docs)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Operational Discipline](../../../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
+=======
+- [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
+>>>>>>> laraxot/dev
 =======
 - [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
 >>>>>>> laraxot/dev

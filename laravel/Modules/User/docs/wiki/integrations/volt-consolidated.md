@@ -71,7 +71,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -403,7 +407,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -1364,8 +1372,13 @@ class LogoutPage
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 - [Best Practices Filament](../filament_best_practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Routing Best Practices](../../routing_best_practices.md) 
 - [Routing Best Practices](../../routing-best-practices.md) 
+=======
+- [Routing Best Practices](../ROUTING_BEST_PRACTICES.md) 
+- [Routing Best Practices](../routing-best-practices.md) 
+>>>>>>> laraxot/dev
 =======
 - [Routing Best Practices](../ROUTING_BEST_PRACTICES.md) 
 - [Routing Best Practices](../routing-best-practices.md) 
@@ -2360,7 +2373,11 @@ php artisan view:clear && php artisan route:clear
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -2658,7 +2675,11 @@ L'utilizzo di widget Filament per l'implementazione dei form  offre un approccio
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -2945,7 +2966,11 @@ class LogoutPage
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 - [Best Practices Filament](../filament_best_practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Routing Best Practices](../../routing_best_practices.md) 
+=======
+- [Routing Best Practices](../ROUTING_BEST_PRACTICES.md) 
+>>>>>>> laraxot/dev
 =======
 - [Routing Best Practices](../ROUTING_BEST_PRACTICES.md) 
 >>>>>>> laraxot/dev
@@ -3023,7 +3048,11 @@ The [@volt] directive is required when using Volt anonymous components in Folio 
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev

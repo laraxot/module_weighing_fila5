@@ -8,9 +8,15 @@ updated: 2026-10-20
 qmd: "user livewire to filament planning matrix migrate reuse keep retire termsofservice privacy"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md
   - ../../../Xot/docs/bmad/livewire-to-filament-widgets-filament-blueprint.md
   - ../../../Xot/docs/bmad/stories/livewire-to-filament-widgets-fleet.story.md
+=======
+  - ../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md
+  - ../../Xot/docs/bmad/livewire-to-filament-widgets-filament-blueprint.md
+  - ../../Xot/docs/bmad/stories/livewire-to-filament-widgets-fleet.story.md
+>>>>>>> laraxot/dev
 =======
   - ../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md
   - ../../Xot/docs/bmad/livewire-to-filament-widgets-filament-blueprint.md
@@ -45,8 +51,13 @@ Una sola superficie per il **panel chrome**: discovery Filament, policy/tenant, 
 Hub piattaforma (source of truth cross-modulo):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Inventario fleet Xot](../../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md)
 - [Filament blueprint Xot](../../../Xot/docs/bmad/livewire-to-filament-widgets-filament-blueprint.md)
+=======
+- [Inventario fleet Xot](../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md)
+- [Filament blueprint Xot](../../Xot/docs/bmad/livewire-to-filament-widgets-filament-blueprint.md)
+>>>>>>> laraxot/dev
 =======
 - [Inventario fleet Xot](../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md)
 - [Filament blueprint Xot](../../Xot/docs/bmad/livewire-to-filament-widgets-filament-blueprint.md)
@@ -109,8 +120,13 @@ Stati: `MIGRATE` | `REUSE` | `KEEP` | `RETIRE` (come hub Xot).
 - Inventario User storico (parzialmente stale vs disco 2026-10-20): [livewire-inventory.md](./livewire-inventory.md)
 - PRD / tech-spec campagna: [livewire-widget-prd.md](./livewire-widget-prd.md), [livewire-widget-tech-spec.md](./livewire-widget-tech-spec.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Hub Xot: [inventory](../../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md) · [blueprint](../../../Xot/docs/bmad/livewire-to-filament-widgets-filament-blueprint.md) · [fleet story](../../../Xot/docs/bmad/stories/livewire-to-filament-widgets-fleet.story.md) (W0: TermsOfServiceWidget **REUSE** vs HTTP orfano)
 - Indice User: [../00-INDEX.md](../00-index.md)
+=======
+- Hub Xot: [inventory](../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md) · [blueprint](../../Xot/docs/bmad/livewire-to-filament-widgets-filament-blueprint.md) · [fleet story](../../Xot/docs/bmad/stories/livewire-to-filament-widgets-fleet.story.md) (W0: TermsOfServiceWidget **REUSE** vs HTTP orfano)
+- Indice User: [../00-INDEX.md](../00-INDEX.md)
+>>>>>>> laraxot/dev
 =======
 - Hub Xot: [inventory](../../Xot/docs/bmad/livewire-to-filament-widgets-inventory.md) · [blueprint](../../Xot/docs/bmad/livewire-to-filament-widgets-filament-blueprint.md) · [fleet story](../../Xot/docs/bmad/stories/livewire-to-filament-widgets-fleet.story.md) (W0: TermsOfServiceWidget **REUSE** vs HTTP orfano)
 - Indice User: [../00-INDEX.md](../00-INDEX.md)

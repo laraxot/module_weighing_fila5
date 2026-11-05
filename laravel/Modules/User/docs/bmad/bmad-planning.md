@@ -10,17 +10,23 @@ tags: [bmad, planning, second-brain, filament-blueprint, user]
 qmd: "bmad planning user scopo onde filament"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ./project-context.md
   - ./brainstorming.md
   - ./filament-ux-brainstorming.md
   - ../bmad-brainstorming.md
   - ./filament-blueprint.md
 =======
+=======
+>>>>>>> laraxot/dev
   - ./bmad/project-context.md
   - ./bmad/brainstorming.md
   - ./bmad/filament-ux-brainstorming.md
   - ./bmad-brainstorming.md
   - ./bmad/filament-blueprint.md
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 
@@ -63,7 +69,11 @@ Resource/widget di competenza:
 - AuthenticationLogResource
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Dettaglio contratto: [filament-blueprint.md](./filament-blueprint.md).
+=======
+Dettaglio contratto: [filament-blueprint.md](./bmad/filament-blueprint.md).
+>>>>>>> laraxot/dev
 =======
 Dettaglio contratto: [filament-blueprint.md](./bmad/filament-blueprint.md).
 >>>>>>> laraxot/dev

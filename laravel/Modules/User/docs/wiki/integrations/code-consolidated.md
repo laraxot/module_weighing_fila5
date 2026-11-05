@@ -783,7 +783,11 @@ public function getTableColumns(): array
 - [authentication-performance-optimization-2.md](../../performance/authentication-performance-optimization.md)
 - [optimization-analysis.md](./optimization-analysis.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [phpstan-compliance.md](../../phpstan-compliance.md)
+=======
+- [phpstan-compliance.md](./phpstan-compliance.md)
+>>>>>>> laraxot/dev
 =======
 - [phpstan-compliance.md](./phpstan-compliance.md)
 >>>>>>> laraxot/dev
@@ -1126,7 +1130,11 @@ public function getTableColumns(): array
 - [authentication-performance-optimization-2.md](../../performance/authentication-performance-optimization.md)
 - [optimization-analysis.md](./optimization-analysis.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [phpstan-compliance.md](../../phpstan-compliance.md)
+=======
+- [phpstan-compliance.md](./phpstan-compliance.md)
+>>>>>>> laraxot/dev
 =======
 - [phpstan-compliance.md](./phpstan-compliance.md)
 >>>>>>> laraxot/dev
@@ -1471,7 +1479,11 @@ public function getTableColumns(): array
 - [authentication-performance-optimization-2.md](../../performance/authentication-performance-optimization.md)
 - [optimization-analysis.md](./optimization-analysis.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [phpstan-compliance.md](../../phpstan-compliance.md)
+=======
+- [phpstan-compliance.md](./phpstan-compliance.md)
+>>>>>>> laraxot/dev
 =======
 - [phpstan-compliance.md](./phpstan-compliance.md)
 >>>>>>> laraxot/dev
@@ -1815,7 +1827,11 @@ public function getTableColumns(): array
 - [authentication-performance-optimization-2.md](../../performance/authentication-performance-optimization.md)
 - [optimization-analysis.md](./optimization-analysis.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [phpstan-compliance.md](../../phpstan-compliance.md)
+=======
+- [phpstan-compliance.md](./phpstan-compliance.md)
+>>>>>>> laraxot/dev
 =======
 - [phpstan-compliance.md](./phpstan-compliance.md)
 >>>>>>> laraxot/dev
@@ -2388,7 +2404,11 @@ public function getTableColumns(): array
 - [authentication-performance-optimization-2.md](../../performance/authentication-performance-optimization.md)
 - [optimization-analysis.md](./optimization-analysis.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [phpstan-compliance.md](../../phpstan-compliance.md)
+=======
+- [phpstan-compliance.md](./phpstan-compliance.md)
+>>>>>>> laraxot/dev
 =======
 - [phpstan-compliance.md](./phpstan-compliance.md)
 >>>>>>> laraxot/dev
@@ -2888,7 +2908,11 @@ public function getTableColumns(): array
 - [AUTHENTICATION_PERFORMANCE_OPTIMIZATION.md](./performance/AUTHENTICATION_PERFORMANCE_OPTIMIZATION.md)
 - [optimization-analysis.md](./optimization-analysis.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [phpstan-compliance.md](../../phpstan-compliance.md)
+=======
+- [phpstan-compliance.md](./phpstan-compliance.md)
+>>>>>>> laraxot/dev
 =======
 - [phpstan-compliance.md](./phpstan-compliance.md)
 >>>>>>> laraxot/dev
@@ -2964,9 +2988,15 @@ I conteggi sono una fotografia del repository, non obiettivi architetturali. Pri
 - [architecture](./architecture.md)
 - [index](./index.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [module](../../module.md)
 - [philosophy](./philosophy.md)
 - [README](./readme.md)
+=======
+- [module](./module.md)
+- [philosophy](./philosophy.md)
+- [README](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [module](./module.md)
 - [philosophy](./philosophy.md)

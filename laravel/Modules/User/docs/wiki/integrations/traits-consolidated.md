@@ -608,7 +608,11 @@ trait HasTeams
 
 - [docs/USER_MODULE.md](../../../docs/USER_MODULE.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modules/User/docs/traits.md](../../traits.md)  
+=======
+- [Modules/User/docs/traits.md](traits.md)  
+>>>>>>> laraxot/dev
 =======
 - [Modules/User/docs/traits.md](traits.md)  
 >>>>>>> laraxot/dev
@@ -620,7 +624,11 @@ trait HasTeams
 *Ultimo aggiornamento: gennaio 2025* 
 - [docs/USER_MODULE.md](../../../../docs/user_module.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modules/User/docs/traits.md](../../traits.md)  
+=======
+- [Modules/User/docs/traits.md](traits.md)  
+>>>>>>> laraxot/dev
 =======
 - [Modules/User/docs/traits.md](traits.md)  
 >>>>>>> laraxot/dev
@@ -1210,7 +1218,11 @@ trait HasTeams
 
 - [docs/USER_MODULE.md](../../../../docs/project/user_module.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modules/User/project_docs/traits.md](../../traits.md)
+=======
+- [Modules/User/project_docs/traits.md](traits.md)
+>>>>>>> laraxot/dev
 =======
 - [Modules/User/project_docs/traits.md](traits.md)
 >>>>>>> laraxot/dev
@@ -1776,7 +1788,11 @@ trait HasTeams
 
 - [docs/USER_MODULE.md](../../../../docs/project/user_module.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modules/User/project_docs/traits.md](../../traits.md)  
+=======
+- [Modules/User/project_docs/traits.md](traits.md)  
+>>>>>>> laraxot/dev
 =======
 - [Modules/User/project_docs/traits.md](traits.md)  
 >>>>>>> laraxot/dev
@@ -1908,8 +1924,13 @@ class User extends Authenticatable
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modulo User](./readme.md)
 - [Xot Traits](../../../../Xot/docs)
+=======
+- [Modulo User](./README.md)
+- [Xot Traits](../../Xot/docs/)
+>>>>>>> laraxot/dev
 =======
 - [Modulo User](./README.md)
 - [Xot Traits](../../Xot/docs/)
@@ -2873,7 +2894,11 @@ trait HasTeams
 
 - [docs/USER_MODULE.md](../../../docs/USER_MODULE.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modules/User/docs/traits.md](../../traits.md)  
+=======
+- [Modules/User/docs/traits.md](traits.md)  
+>>>>>>> laraxot/dev
 =======
 - [Modules/User/docs/traits.md](traits.md)  
 >>>>>>> laraxot/dev

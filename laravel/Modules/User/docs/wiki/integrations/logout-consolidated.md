@@ -345,7 +345,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -893,7 +897,11 @@ related:
 - [Convenzioni Path](./path-conventions.md)
 - [Analisi dell'Errore di Implementazione](./volt-blade-implementation-error.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -2253,7 +2261,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -3371,7 +3383,11 @@ $logout = function () {
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -3824,7 +3840,11 @@ La versione migliorata proposta risolve tutti i problemi identificati e offre un
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -3925,7 +3945,11 @@ L'implementazione raccomandata rappresenta la soluzione più semplice, efficient
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -4284,7 +4308,11 @@ Questi errori evidenziano l'importanza di:
 - [Documentazione centrale](../../../docs/README.md)
 - [Collegamenti documentazione](../../../docs/collegamenti-documentazione.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -4913,7 +4941,11 @@ Questa modifica risolverà l'errore `Call to a member function getAuthIdentifier
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev
@@ -5242,7 +5274,11 @@ La documentazione è stata aggiornata per riflettere queste raccomandazioni e pe
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README modulo User](./readme.md)
+=======
+- [README modulo User](./README.md)
+>>>>>>> laraxot/dev
 =======
 - [README modulo User](./README.md)
 >>>>>>> laraxot/dev

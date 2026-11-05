@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "User, indice dei documenti e a cosa servono"
 type: index
 status: active
@@ -15,6 +16,8 @@ related:
 <<<<<<< .merge_file_lrMfjf
 =======
 =======
+=======
+>>>>>>> laraxot/dev
 title: "**Indice Documentazione Modulo User**"
 type: index
 status: draft
@@ -22,6 +25,9 @@ updated: 2026-10-26
 tags: [docs, user]
 qmd: "**indice documentazione modulo user** user"
 ---
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # 📚 **Indice Documentazione Modulo User**
 
@@ -78,6 +84,7 @@ qmd: "**indice documentazione modulo user** user"
 ## 🔗 **Moduli Correlati**
 - [Xot](../../Xot/docs/README.md) - Core per la gestione dei trait `HasTeams`.
 - [Tenant](../../Tenant/docs/README.md) - Risoluzione del Tenant corrente per l'utente.
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> .merge_file_YYhcSq
 
@@ -152,6 +159,8 @@ Misure e decisioni aperte sono nella story [dcp-442](./stories/dcp-442-ordine-de
 - [Cosa manca per completare](./completion-status.md): indicatori misurati, problemi noti e story aperte (2026-10-28)
 >>>>>>> .merge_file_YYhcSq
 =======
+=======
+>>>>>>> laraxot/dev
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
@@ -161,4 +170,7 @@ Misure e decisioni aperte sono nella story [dcp-442](./stories/dcp-442-ordine-de
 - [Dependency intelligence](dependency-intelligence.md)
 - [Scopo, confini e come servirlo meglio](./scopo.md)
 - [Cosa manca per completare](./completion-status.md): indicatori misurati, problemi noti e story aperte (2026-10-28)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

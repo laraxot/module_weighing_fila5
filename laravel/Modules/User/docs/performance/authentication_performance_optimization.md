@@ -164,7 +164,11 @@ CREATE INDEX idx_sessions_last_activity ON sessions(last_activity);
 ## 📚 Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [authentication.md](../authentication.md)
+=======
+- [authentication.md](./authentication.md)
+>>>>>>> laraxot/dev
 =======
 - [authentication.md](./authentication.md)
 >>>>>>> laraxot/dev

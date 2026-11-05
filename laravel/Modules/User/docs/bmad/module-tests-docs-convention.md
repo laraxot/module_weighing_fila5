@@ -6,7 +6,11 @@ tags: [bmad, second-brain, module-structure, tests, docs, filament-blueprint]
 status: completed
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../second-brain-module-tests-docs-error.md
+=======
+  - ../docs/second-brain-module-tests-docs-error.md
+>>>>>>> laraxot/dev
 =======
   - ../docs/second-brain-module-tests-docs-error.md
 >>>>>>> laraxot/dev

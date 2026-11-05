@@ -82,3 +82,10 @@ Aggiornato: 2026-07-27
 ## Shared Second Brain Discipline
 
 - [second-brain-local-discipline](./concepts/second-brain-local-discipline.md): local docs/wiki operating contract aligned with root LLM Wiki discipline.
+<<<<<<< HEAD
+=======
+
+## Model architecture
+
+- [model-trait-inventory](./architecture/model-trait-inventory.md): mappa dei trait mutator e relazionali di `Tenant`, `TenantSetting` e `TenantSubscription`.
+>>>>>>> laraxot/dev

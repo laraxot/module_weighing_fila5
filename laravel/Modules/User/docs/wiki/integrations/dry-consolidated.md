@@ -171,7 +171,11 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Base Classes Hierarchy](../../models/base-classes-hierarchy.md)
+=======
+- [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
+>>>>>>> laraxot/dev
 =======
 - [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
 >>>>>>> laraxot/dev
@@ -328,7 +332,11 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Base Classes Hierarchy](../../models/base-classes-hierarchy.md)
+=======
+- [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
+>>>>>>> laraxot/dev
 =======
 - [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
 >>>>>>> laraxot/dev
@@ -486,7 +494,11 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Base Classes Hierarchy](../../models/base-classes-hierarchy.md)
+=======
+- [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
+>>>>>>> laraxot/dev
 =======
 - [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
 >>>>>>> laraxot/dev
@@ -643,7 +655,11 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Base Classes Hierarchy](../../models/base-classes-hierarchy.md)
+=======
+- [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
+>>>>>>> laraxot/dev
 =======
 - [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
 >>>>>>> laraxot/dev
@@ -686,7 +702,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Questo file è stato rinominato in [dry-kiss-analysis-4.md](../../dry-kiss-analysis.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+=======
+> Questo file è stato rinominato in [dry-kiss-analysis-4.md](dry-kiss-analysis.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> laraxot/dev
 =======
 > Questo file è stato rinominato in [dry-kiss-analysis-4.md](dry-kiss-analysis.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 >>>>>>> laraxot/dev
@@ -839,7 +859,11 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Base Classes Hierarchy](../../models/base-classes-hierarchy.md)
+=======
+- [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
+>>>>>>> laraxot/dev
 =======
 - [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
 >>>>>>> laraxot/dev
@@ -892,7 +916,11 @@ related:
 ## 📊 Situazione Attuale
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'analisi del 2025-10-15 (vedi [dry-kiss-analysis.md](../../dry-kiss-analysis.md)) è ancora valida e i problemi evidenziati persistono.
+=======
+L'analisi del 2025-10-15 (vedi [dry-kiss-analysis.md](./dry-kiss-analysis.md)) è ancora valida e i problemi evidenziati persistono.
+>>>>>>> laraxot/dev
 =======
 L'analisi del 2025-10-15 (vedi [dry-kiss-analysis.md](./dry-kiss-analysis.md)) è ancora valida e i problemi evidenziati persistono.
 >>>>>>> laraxot/dev
@@ -948,7 +976,11 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Questo file è stato rinominato in [dry-kiss-analysis-.deprecated.md](../../dry-kiss-analysis-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+=======
+> Questo file è stato rinominato in [dry-kiss-analysis-.deprecated.md](dry-kiss-analysis-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
+>>>>>>> laraxot/dev
 =======
 > Questo file è stato rinominato in [dry-kiss-analysis-.deprecated.md](dry-kiss-analysis-.deprecated.md). Non aggiungere date nel filename; usare `created/updated` nel front matter.
 >>>>>>> laraxot/dev
@@ -1101,7 +1133,11 @@ class RouteServiceProvider extends XotBaseRouteServiceProvider
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Base Classes Hierarchy](../../models/base-classes-hierarchy.md)
+=======
+- [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
+>>>>>>> laraxot/dev
 =======
 - [Base Classes Hierarchy](./models/base-classes-hierarchy.md)
 >>>>>>> laraxot/dev
@@ -1539,7 +1575,11 @@ related:
 ## 📊 Situazione Attuale
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'analisi del [DATE] (vedi [dry-kiss-analysis.md](../../dry-kiss-analysis.md)) è ancora valida e i problemi evidenziati persistono.
+=======
+L'analisi del [DATE] (vedi [dry-kiss-analysis.md](./dry-kiss-analysis.md)) è ancora valida e i problemi evidenziati persistono.
+>>>>>>> laraxot/dev
 =======
 L'analisi del [DATE] (vedi [dry-kiss-analysis.md](./dry-kiss-analysis.md)) è ancora valida e i problemi evidenziati persistono.
 >>>>>>> laraxot/dev

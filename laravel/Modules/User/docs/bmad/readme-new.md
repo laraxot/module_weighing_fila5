@@ -9,7 +9,11 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "../00-index-indice-documentazione-modulo-user.md"
+=======
+  - "./00-index-indice-documentazione-modulo-user.md"
+>>>>>>> laraxot/dev
 =======
   - "./00-index-indice-documentazione-modulo-user.md"
 >>>>>>> laraxot/dev
@@ -974,7 +978,11 @@ test('user can switch teams', function () {
 ### Troubleshooting
 - [Common Issues](./troubleshooting/common-issues.md) - Frequently encountered problems
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Login Component Troubleshooting](../troubleshooting-login-component.md) - Login widget issues
+=======
+- [Login Component Troubleshooting](./troubleshooting-login-component.md) - Login widget issues
+>>>>>>> laraxot/dev
 =======
 - [Login Component Troubleshooting](./troubleshooting-login-component.md) - Login widget issues
 >>>>>>> laraxot/dev
@@ -1023,8 +1031,13 @@ See [ROADMAP.md](./roadmap.md) for details.
 ### Internal Modules
 - [Xot Module](../../../Xot/docs/README.md) - Core foundation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Activity Module](../../../Activity/docs/README.md) - Activity tracking
 - [Lang Module](../../../Lang/docs/README.md) - Translations
+=======
+- [Activity Module](../../../Activity/docs/readme.md) - Activity tracking
+- [Lang Module](../../../Lang/docs/readme.md) - Translations
+>>>>>>> laraxot/dev
 =======
 - [Activity Module](../../../Activity/docs/readme.md) - Activity tracking
 - [Lang Module](../../../Lang/docs/readme.md) - Translations

@@ -17,6 +17,7 @@ related:
   - "./actions-path-convention.md"
   - "./actions-structure.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 status: superseded
 superseded_by: ./00-index.md
 ---
@@ -29,10 +30,15 @@ superseded_by: ./00-index.md
 # Indice Documentazione Modulo User (copia storica)
 >>>>>>> .merge_file_rOXZw6
 =======
+=======
+>>>>>>> laraxot/dev
 status: draft
 ---
 
 # Indice Documentazione Modulo User (copia storica)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 Questo file duplicava [00-index.md](./00-index.md), che e' l'indice canonico e aggiornato: usare quello.

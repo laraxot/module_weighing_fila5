@@ -155,6 +155,7 @@ Dopo le modifiche, eseguire:
 
 - [Regole Qualità Codice](../../../.windsurf/rules/code-quality.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)
 - [BaseMorphPivot](../../../app/Models/BaseMorphPivot.php)
@@ -162,12 +163,17 @@ Dopo le modifiche, eseguire:
 - [XotBasePivot](../../../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../../../Xot/app/Models/XotBaseMorphPivot.php)
 =======
+=======
+>>>>>>> laraxot/dev
 - [BaseModel](../app/Models/BaseModel.php)
 - [BasePivot](../app/Models/BasePivot.php)
 - [BaseMorphPivot](../app/Models/BaseMorphPivot.php)
 - [XotBaseModel](../../Xot/app/Models/XotBaseModel.php)
 - [XotBasePivot](../../Xot/app/Models/XotBasePivot.php)
 - [XotBaseMorphPivot](../../Xot/app/Models/XotBaseMorphPivot.php)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [BaseModel](../../../app/Models/BaseModel.php)
 - [BasePivot](../../../app/Models/BasePivot.php)

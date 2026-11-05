@@ -335,6 +335,7 @@ class UserMassSeeder extends Seeder
     private function info(string $message): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ykv8Ez
         $this->getConsoleCommand()?->info($message);
 =======
@@ -343,10 +344,14 @@ class UserMassSeeder extends Seeder
 =======
         $this->command?->info($message);
 >>>>>>> laraxot/dev
+=======
+        $this->command?->info($message);
+>>>>>>> laraxot/dev
     }
 
     private function error(string $message): void
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ykv8Ez
         $this->getConsoleCommand()?->error($message);
@@ -358,6 +363,9 @@ class UserMassSeeder extends Seeder
 =======
         $this->command?->error($message);
 >>>>>>> .merge_file_Qxk7i3
+=======
+        $this->command?->error($message);
+>>>>>>> laraxot/dev
 =======
         $this->command?->error($message);
 >>>>>>> laraxot/dev

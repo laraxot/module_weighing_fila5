@@ -11,6 +11,7 @@ qmd: "CODE_QUALITY_ANALYSIS alias superseded"
 Documento identico al canonico: [CODE-QUALITY-ANALYSIS.md](CODE-QUALITY-ANALYSIS.md).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dKzz3m
 <<<<<<< .merge_file_Uw1MOx
 ### 1. Authentication Performance Issues (HIGH)
@@ -326,6 +327,9 @@ Canonico: `laravel/Modules/User/docs/wiki/integrations/CODE-QUALITY-ANALYSIS.md`
 =======
 Canonico: `laravel/Modules/User/docs/wiki/integrations/CODE-QUALITY-ANALYSIS.md`. Qui non ci sono istruzioni: seguire il file collegato.
 >>>>>>> .merge_file_ps5emk
+=======
+Canonico: `laravel/Modules/User/docs/wiki/integrations/CODE-QUALITY-ANALYSIS.md`. Qui non ci sono istruzioni: seguire il file collegato.
+>>>>>>> laraxot/dev
 =======
 Canonico: `laravel/Modules/User/docs/wiki/integrations/CODE-QUALITY-ANALYSIS.md`. Qui non ci sono istruzioni: seguire il file collegato.
 >>>>>>> laraxot/dev

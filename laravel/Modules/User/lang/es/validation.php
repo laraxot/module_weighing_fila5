@@ -49,7 +49,11 @@ return array_replace_recursive(
         ],
         'starts_with' => 'El campo :attribute debe empezar con uno de los siguientes valores: :values.',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'uploaded' => 'No se pudo subir el archivo: puede ser demasiado grande. Inténtalo de nuevo con uno más pequeño.',
+=======
+        'uploaded' => 'No se ha podido subir el campo :attribute.',
+>>>>>>> laraxot/dev
 =======
         'uploaded' => 'No se ha podido subir el campo :attribute.',
 >>>>>>> laraxot/dev

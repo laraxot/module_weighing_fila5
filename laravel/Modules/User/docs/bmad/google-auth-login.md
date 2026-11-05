@@ -10,7 +10,11 @@ related:
   - ./filament-blueprint.md
   - ./decision-log.md
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ../../../../Themes/Sixteen/docs/bmad/plans/oauth-login-locale-fix.md
+=======
+  - ../../../Themes/Sixteen/docs/bmad/plans/oauth-login-locale-fix.md
+>>>>>>> laraxot/dev
 =======
   - ../../../Themes/Sixteen/docs/bmad/plans/oauth-login-locale-fix.md
 >>>>>>> laraxot/dev

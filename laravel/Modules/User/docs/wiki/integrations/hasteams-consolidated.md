@@ -526,7 +526,11 @@ Aggiornare:
 - [docs/USER_MODULE.md](../../../docs/USER_MODULE.md)
 - [docs/USER_MODULE.md](../../../../docs/user_module.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modules/User/docs/traits.md](../../traits.md)
+=======
+- [Modules/User/docs/traits.md](traits.md)
+>>>>>>> laraxot/dev
 =======
 - [Modules/User/docs/traits.md](traits.md)
 >>>>>>> laraxot/dev
@@ -557,8 +561,13 @@ Il trait `HasTeams` ora è:
 
 ### **📁 Documentazione Modulo User**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [traits.md](../../traits.md) - Documentazione completa trait modulo User
 - [authentication.md](../../authentication.md) - Sistema autenticazione User
+=======
+- [traits.md](traits.md) - Documentazione completa trait modulo User
+- [authentication.md](authentication.md) - Sistema autenticazione User
+>>>>>>> laraxot/dev
 =======
 - [traits.md](traits.md) - Documentazione completa trait modulo User
 - [authentication.md](authentication.md) - Sistema autenticazione User
@@ -585,9 +594,15 @@ Il trait `HasTeams` ora è:
 
 ### **🏗️ File Correlati**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [../app/Models/Traits/HasTeams.php](../../../app/Models/Traits/HasTeams.php) - File trait implementato
 - [../app/Models/TeamUser.php](../../../app/Models/TeamUser.php) - Modello pivot
 - [../app/Models/TeamInvitation.php](../../../app/Models/TeamInvitation.php) - Modello inviti
+=======
+- [../app/Models/Traits/HasTeams.php](../app/Models/Traits/HasTeams.php) - File trait implementato
+- [../app/Models/TeamUser.php](../app/Models/TeamUser.php) - Modello pivot
+- [../app/Models/TeamInvitation.php](../app/Models/TeamInvitation.php) - Modello inviti
+>>>>>>> laraxot/dev
 =======
 - [../app/Models/Traits/HasTeams.php](../app/Models/Traits/HasTeams.php) - File trait implementato
 - [../app/Models/TeamUser.php](../app/Models/TeamUser.php) - Modello pivot
@@ -890,7 +905,11 @@ Creare test per verificare:
 Aggiornare:
 - [docs/USER_MODULE.md](../../../../docs/user_module.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modules/User/docs/traits.md](../../traits.md)
+=======
+- [Modules/User/docs/traits.md](traits.md)
+>>>>>>> laraxot/dev
 =======
 - [Modules/User/docs/traits.md](traits.md)
 >>>>>>> laraxot/dev
@@ -918,8 +937,13 @@ Il trait `HasTeams` ora è:
 
 ### **📁 Documentazione Modulo User**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [traits.md](../../traits.md) - Documentazione completa trait modulo User
 - [authentication.md](../../authentication.md) - Sistema autenticazione User
+=======
+- [traits.md](traits.md) - Documentazione completa trait modulo User
+- [authentication.md](authentication.md) - Sistema autenticazione User
+>>>>>>> laraxot/dev
 =======
 - [traits.md](traits.md) - Documentazione completa trait modulo User
 - [authentication.md](authentication.md) - Sistema autenticazione User
@@ -942,9 +966,15 @@ Il trait `HasTeams` ora è:
 
 ### **🏗️ File Correlati**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [../app/Models/Traits/HasTeams.php](../../../app/Models/Traits/HasTeams.php) - File trait implementato
 - [../app/Models/TeamUser.php](../../../app/Models/TeamUser.php) - Modello pivot
 - [../app/Models/TeamInvitation.php](../../../app/Models/TeamInvitation.php) - Modello inviti
+=======
+- [../app/Models/Traits/HasTeams.php](../app/Models/Traits/HasTeams.php) - File trait implementato
+- [../app/Models/TeamUser.php](../app/Models/TeamUser.php) - Modello pivot
+- [../app/Models/TeamInvitation.php](../app/Models/TeamInvitation.php) - Modello inviti
+>>>>>>> laraxot/dev
 =======
 - [../app/Models/Traits/HasTeams.php](../app/Models/Traits/HasTeams.php) - File trait implementato
 - [../app/Models/TeamUser.php](../app/Models/TeamUser.php) - Modello pivot
@@ -1132,8 +1162,13 @@ Nel trait `HasTeams` sono presenti diversi metodi con lo stesso nome ma implemen
 - [Best practices trait](./best-practices-traits.md)
 - [Refactor checklist](./refactor-checklist.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotData helper](../../../../Xot/docs/standards/README.md)
 - [XotData helper](../../../../Xot/docs/standards/README.md)
+=======
+- [XotData helper](../../xot/docs/standards/readme.md)
+- [XotData helper](../../../../Xot/docs/standards/readme.md)
+>>>>>>> laraxot/dev
 =======
 - [XotData helper](../../xot/docs/standards/readme.md)
 - [XotData helper](../../../../Xot/docs/standards/readme.md)
@@ -1495,7 +1530,11 @@ Creare test per verificare:
 Aggiornare:
 - [docs/USER_MODULE.md](../../../docs/USER_MODULE.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modules/User/docs/traits.md](../../traits.md)
+=======
+- [Modules/User/docs/traits.md](traits.md)
+>>>>>>> laraxot/dev
 =======
 - [Modules/User/docs/traits.md](traits.md)
 >>>>>>> laraxot/dev
@@ -1523,8 +1562,13 @@ Il trait `HasTeams` ora è:
 
 ### **📁 Documentazione Modulo User**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [traits.md](../../traits.md) - Documentazione completa trait modulo User
 - [authentication.md](../../authentication.md) - Sistema autenticazione User
+=======
+- [traits.md](traits.md) - Documentazione completa trait modulo User
+- [authentication.md](authentication.md) - Sistema autenticazione User
+>>>>>>> laraxot/dev
 =======
 - [traits.md](traits.md) - Documentazione completa trait modulo User
 - [authentication.md](authentication.md) - Sistema autenticazione User
@@ -1543,9 +1587,15 @@ Il trait `HasTeams` ora è:
 
 ### **🏗️ File Correlati**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [../app/Models/Traits/HasTeams.php](../../../app/Models/Traits/HasTeams.php) - File trait implementato
 - [../app/Models/TeamUser.php](../../../app/Models/TeamUser.php) - Modello pivot
 - [../app/Models/TeamInvitation.php](../../../app/Models/TeamInvitation.php) - Modello inviti
+=======
+- [../app/Models/Traits/HasTeams.php](../app/Models/Traits/HasTeams.php) - File trait implementato
+- [../app/Models/TeamUser.php](../app/Models/TeamUser.php) - Modello pivot
+- [../app/Models/TeamInvitation.php](../app/Models/TeamInvitation.php) - Modello inviti
+>>>>>>> laraxot/dev
 =======
 - [../app/Models/Traits/HasTeams.php](../app/Models/Traits/HasTeams.php) - File trait implementato
 - [../app/Models/TeamUser.php](../app/Models/TeamUser.php) - Modello pivot

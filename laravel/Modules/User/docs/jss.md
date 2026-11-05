@@ -123,7 +123,11 @@ Dopo la risoluzione, sono state eseguite le seguenti verifiche:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Modulo User](module-user.md)
+=======
+- [Documentazione Modulo User](module_user.md)
+>>>>>>> laraxot/dev
 =======
 - [Documentazione Modulo User](module_user.md)
 >>>>>>> laraxot/dev

@@ -1,10 +1,14 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hu0PDm
 title: "PHPStan Status — User Module"
 =======
 title: "PHPStan Status: User Module"
 >>>>>>> .merge_file_lNC6GM
+=======
+title: "PHPStan Status: User Module"
+>>>>>>> laraxot/dev
 =======
 title: "PHPStan Status: User Module"
 >>>>>>> laraxot/dev

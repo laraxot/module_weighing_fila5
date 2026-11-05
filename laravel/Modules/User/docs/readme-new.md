@@ -1015,8 +1015,13 @@ See [ROADMAP.md](./roadmap.md) for details.
 ### Internal Modules
 - [Xot Module](../../Xot/docs/README.md) - Core foundation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Activity Module](../../Activity/docs/README.md) - Activity tracking
 - [Lang Module](../../Lang/docs/README.md) - Translations
+=======
+- [Activity Module](../../Activity/docs/readme.md) - Activity tracking
+- [Lang Module](../../Lang/docs/readme.md) - Translations
+>>>>>>> laraxot/dev
 =======
 - [Activity Module](../../Activity/docs/readme.md) - Activity tracking
 - [Lang Module](../../Lang/docs/readme.md) - Translations

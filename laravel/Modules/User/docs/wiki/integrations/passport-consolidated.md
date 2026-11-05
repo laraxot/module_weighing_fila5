@@ -385,7 +385,11 @@ related:
 **Status**: ✅ COMPLETATO
 **Metodologia**: Super Mucca
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Vedi**: [passport-cluster-implementation-completed.md](../../passport-cluster-implementation-completed.md)
+=======
+**Vedi**: [passport-cluster-implementation-completed.md](./passport-cluster-implementation-completed.md)
+>>>>>>> laraxot/dev
 =======
 **Vedi**: [passport-cluster-implementation-completed.md](./passport-cluster-implementation-completed.md)
 >>>>>>> laraxot/dev
@@ -731,8 +735,13 @@ class ListOauthClients extends XotBaseListRecords
 ## 📚 Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Passport Cluster Resources Pattern](../../passport-cluster-resources-pattern.md)
 - [Passport Cluster Summary](../../passport-cluster-summary.md)
+=======
+- [Passport Cluster Resources Pattern](./passport-cluster-resources-pattern.md)
+- [Passport Cluster Summary](./passport-cluster-summary.md)
+>>>>>>> laraxot/dev
 =======
 - [Passport Cluster Resources Pattern](./passport-cluster-resources-pattern.md)
 - [Passport Cluster Summary](./passport-cluster-summary.md)
@@ -964,9 +973,15 @@ cd laravel
 ## References
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Passport Cluster Proposal](../../passport-cluster-proposal.md)
 - [Passport Cluster Philosophy](../../passport-cluster-philosophy.md)
 - [Passport Cluster Inner Debate](../../passport-cluster-inner-debate.md)
+=======
+- [Passport Cluster Proposal](./passport-cluster-proposal.md)
+- [Passport Cluster Philosophy](./passport-cluster-philosophy.md)
+- [Passport Cluster Inner Debate](./passport-cluster-inner-debate.md)
+>>>>>>> laraxot/dev
 =======
 - [Passport Cluster Proposal](./passport-cluster-proposal.md)
 - [Passport Cluster Philosophy](./passport-cluster-philosophy.md)
@@ -1595,8 +1610,13 @@ find Modules/User/app/Filament/Clusters/Passport/Resources -name "*.php" -type f
 - [PSR-4 Autoloading Standard](https://www.php-fig.org/psr/psr-4/)
 - [Composer Autoload Documentation](https://getcomposer.org/doc/04-schema.md#psr-4)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laraxot Module Structure](../../../../Xot/docs/module-structure.md)
 - [Previous Implementation Doc](../../passport-cluster-implementation-status.md)
+=======
+- [Laraxot Module Structure](../../xot/docs/module-structure.md)
+- [Previous Implementation Doc](./passport-cluster-implementation-status.md)
+>>>>>>> laraxot/dev
 =======
 - [Laraxot Module Structure](../../xot/docs/module-structure.md)
 - [Previous Implementation Doc](./passport-cluster-implementation-status.md)
@@ -1788,9 +1808,15 @@ find Modules/User/app/Filament/Clusters/Passport/Resources -name "*Resource.php"
 ## 📚 Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Passport Cluster Summary](../../passport-cluster-summary.md)
 - [Passport Cluster Summary](../../passport-cluster-summary.md)
 - [Passport Cluster Implementation](../../passport-cluster-implementation-completed.md)
+=======
+- [Passport Cluster Summary](./passport-cluster-summary.md)
+- [Passport Cluster Summary](../../passport-cluster-summary.md)
+- [Passport Cluster Implementation](./passport-cluster-implementation-completed.md)
+>>>>>>> laraxot/dev
 =======
 - [Passport Cluster Summary](./passport-cluster-summary.md)
 - [Passport Cluster Summary](../../passport-cluster-summary.md)
@@ -2258,9 +2284,15 @@ find Modules/User/app/Filament/Clusters/Passport/Resources -name "*Resource.php"
 ## 📚 Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Passport Cluster Resources Only Rule](../../passport-cluster-resources-only-rule.md) - Regola critica
 - [Passport Cluster Implementation](../../passport-cluster-implementation-completed.md) - Implementazione
 - [Passport Cluster Summary](../../passport-cluster-summary.md) - Riepilogo
+=======
+- [Passport Cluster Resources Only Rule](./passport-cluster-resources-only-rule.md) - Regola critica
+- [Passport Cluster Implementation](./passport-cluster-implementation-completed.md) - Implementazione
+- [Passport Cluster Summary](./passport-cluster-summary.md) - Riepilogo
+>>>>>>> laraxot/dev
 =======
 - [Passport Cluster Resources Only Rule](./passport-cluster-resources-only-rule.md) - Regola critica
 - [Passport Cluster Implementation](./passport-cluster-implementation-completed.md) - Implementazione
@@ -3841,7 +3873,11 @@ find Modules/User/app/Filament/Resources -name "SocialProviderResource.php"
 ## 📚 Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Passport Cluster Resources Only Rule](../../passport-cluster-resources-only-rule.md)
+=======
+- [Passport Cluster Resources Only Rule](./passport-cluster-resources-only-rule.md)
+>>>>>>> laraxot/dev
 =======
 - [Passport Cluster Resources Only Rule](./passport-cluster-resources-only-rule.md)
 >>>>>>> laraxot/dev

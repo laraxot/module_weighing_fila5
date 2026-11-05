@@ -13,7 +13,11 @@ related:
   - ./bmad/brainstorming.md
   - ./bmad/filament-ux-brainstorming.md
 <<<<<<< HEAD
+<<<<<<< HEAD
   - ./bmad/bmad-planning.md
+=======
+  - ./bmad-planning.md
+>>>>>>> laraxot/dev
 =======
   - ./bmad-planning.md
 >>>>>>> laraxot/dev
@@ -70,11 +74,15 @@ Come tenere chrome Filament (user menu/widget) senza reintrodurre Livewire HTTP 
 ## Prossimo step BMAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vrCUNN
 Vedi [bmad-planning.md](./bmad/bmad-planning.md) — eseguire la Wave 1 e aggiornare il decision-log owner.
 =======
 Vedi [bmad-planning.md](./bmad-planning.md): eseguire la Wave 1 e aggiornare il decision-log owner.
 >>>>>>> .merge_file_MoKJZm
+=======
+Vedi [bmad-planning.md](./bmad-planning.md): eseguire la Wave 1 e aggiornare il decision-log owner.
+>>>>>>> laraxot/dev
 =======
 Vedi [bmad-planning.md](./bmad-planning.md): eseguire la Wave 1 e aggiornare il decision-log owner.
 >>>>>>> laraxot/dev

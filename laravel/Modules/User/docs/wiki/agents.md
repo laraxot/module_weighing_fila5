@@ -4,7 +4,11 @@ topic: AGENTS
 canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./Architecture.md"
+=======
+  - "./architecture.md"
+>>>>>>> laraxot/dev
 =======
   - "./architecture.md"
 >>>>>>> laraxot/dev
