@@ -1,4 +1,3 @@
-<<<<<<< .merge_file_IfNqIc
 ---
 title: "Quality Report: Lang"
 type: alias
@@ -12,5 +11,3 @@ qmd: "quality_report alias superseded"
 Documento identico al canonico: [QUALITY_REPORT.md](QUALITY_REPORT.md).
 
 Canonico: `laravel/Modules/Lang/docs/QUALITY_REPORT.md`. Qui non ci sono istruzioni: seguire il file collegato.
-=======
->>>>>>> .merge_file_9Yktnh

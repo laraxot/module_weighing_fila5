@@ -7,7 +7,6 @@ namespace Modules\Warehouse\Actions;
 use Modules\Warehouse\Models\Area;
 use Modules\Warehouse\Models\Location;
 use Modules\Warehouse\Models\StockUnit;
-use Modules\Xot\Actions\Cast\SafeFloatCastAction;
 use Spatie\QueueableAction\QueueableAction;
 
 /**
@@ -21,14 +20,6 @@ class GetAreaLoadKgAction
 {
     use QueueableAction;
 
-    public function execute(Area $area): float
-    {
-        $sum = StockUnit::query()
-            ->occupying()
-            ->whereIn('location_id', Location::withTrashed()->select('id')->where('area_id', $area->id))
-            ->sum('net_weight_kg');
-
-        return round(SafeFloatCastAction::cast($sum), 3);
     public function __construct(
         private readonly SumNetWeightKgAction $sumNetWeight,
     ) {}
