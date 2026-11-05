@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "name": "laraxot/base_roosko_fila5",
     "description": "Roosko: gestione rifiuti in impianto di trattamento e cernita (Laraxot, Laravel 13, Filament 5)",
     "type": "laravel-module",
@@ -38,78 +37,6 @@
     },
     "config": {
         "sort-packages": true
-=======
-    "name": "laraxot/module_weighing_fila5",
-    "description": "Generic weighing module for the Laraxot ecosystem: scales with TCP ASCII/manual/fake drivers, gross/tare/net weighing tickets attachable to any model.",
-    "keywords": [
-        "laraxot",
-        "laravel",
-        "filament",
-        "module_weighing",
-        "scale",
-        "weighbridge",
-        "weighing"
-    ],
-    "homepage": "https://github.com/laraxot/module_weighing_fila5",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Marco Sottana",
-            "email": "marco.sottana@gmail.com"
-        }
-    ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Modules\\Weighing\\Providers\\WeighingServiceProvider",
-                "Modules\\Weighing\\Providers\\Filament\\AdminPanelProvider"
-            ],
-            "aliases": []
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Modules\\Weighing\\": "app/",
-            "Modules\\Weighing\\Database\\Factories\\": "database/factories/",
-            "Modules\\Weighing\\Database\\Seeders\\": "database/seeders/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Modules\\Weighing\\Tests\\": "tests/"
-        }
-    },
-    "require": {
-        "php": "^8.3"
-    },
-    "require-dev": {},
-    "repositories_comment": [
-        {
-            "type": "path",
-            "url": "../Xot"
-        }
-    ],
-    "scripts": {
-        "post-autoload-dump": [],
-        "post-update-cmd": [
-            "Illuminate\\Foundation\\ComposerScripts::postUpdate"
-        ],
-        "analyse": "vendor/bin/phpstan analyse",
-        "test": "./vendor/bin/pest --no-coverage",
-        "test-coverage": "vendor/bin/pest --coverage-html coverage",
-        "lint": [
-            "@php vendor/bin/pint",
-            "@php vendor/bin/phpstan analyse"
-        ]
-    },
-    "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "pestphp/pest-plugin": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
-            "wikimedia/composer-merge-plugin": true
-        }
->>>>>>> laraxot/dev
     },
     "minimum-stability": "dev",
     "prefer-stable": true
