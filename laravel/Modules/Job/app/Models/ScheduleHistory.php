@@ -13,10 +13,6 @@ use Modules\Job\Database\Factories\ScheduleHistoryFactory;
 use Modules\Job\Models\Traits\ScheduleHistoryRelations;
 use Modules\Xot\Contracts\ProfileContract;
 use Override;
-<<<<<<< HEAD
-use Modules\Job\Models\Traits\ScheduleHistoryRelations;
-=======
->>>>>>> laraxot/dev
 
 /**
  * Modules\Job\Models\ScheduleHistory.
@@ -94,13 +90,6 @@ class ScheduleHistory extends BaseModel
     /**
      * @return array<string, string>
      */
-<<<<<<< HEAD
-<<<<<<< .merge_file_HtLUmw
-
-=======
->>>>>>> .merge_file_4XzeuB
-=======
->>>>>>> laraxot/dev
     #[Override]
     protected function casts(): array
     {

@@ -6,6 +6,7 @@ use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Filament\Tables\Columns\OrganizationColumn;
 
+uses(\Modules\UI\Tests\TestCase::class);
 it('provides the schema.org organization field set', function (): void {
     $column = OrganizationColumn::make();
 

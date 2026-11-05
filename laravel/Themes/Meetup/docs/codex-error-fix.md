@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "codex error fix"
 type: note
 tags: [documentation]
@@ -12,11 +11,6 @@ module: theme
 topic: codex-error-fix
 canonical: ../../docs/shared-components/codex-error-fix.md  # target mancante, verificato 2026-10-08
 status: stub
-=======
-module: theme
-topic: codex-error-fix
-canonical: ../../docs/shared-components/codex-error-fix.md
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../docs/shared-components/codex-error-fix.md

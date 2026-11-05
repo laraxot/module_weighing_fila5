@@ -7,6 +7,7 @@ namespace Modules\UI\Tests\Feature;
 use Modules\UI\Filament\Tables\Columns\OpeningHoursColumn;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\UI\Tests\TestCase::class);
 describe('OpeningHoursColumn — controparte di OpeningHoursField', function (): void {
     it('can be instantiated with make() using the default name', function (): void {
         $column = OpeningHoursColumn::make();

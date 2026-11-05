@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "README"
 type: note
 tags: [documentation]
@@ -8,8 +7,6 @@ updated: 2026-09-26
 qmd: "README"
 issues: []
 discussions: []
-=======
->>>>>>> laraxot/dev
 module: theme
 topic: README
 canonical: ../../../docs/shared-components/README-Modules.md

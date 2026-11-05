@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "README"
 type: note
@@ -11,8 +10,6 @@ discussions: []
 status: active
 ---
 
-=======
->>>>>>> laraxot/dev
 # LLM Wiki: compiled knowledge
 
 Questo folder contiene la conoscenza 'compilata' dall'AI partendo dai documenti raw in ../docs.

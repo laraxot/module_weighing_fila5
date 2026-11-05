@@ -8,6 +8,7 @@ use Illuminate\Support\HtmlString;
 use Modules\UI\Filament\Tables\Columns\IDColumn;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\UI\Tests\TestCase::class);
 describe('IDColumn — identificatore e target di ritorno della riga', function (): void {
     it('rende un target HTML stabile senza anchor annidati', function (): void {
         $html = IDColumn::renderAnchor(42)->toHtml();

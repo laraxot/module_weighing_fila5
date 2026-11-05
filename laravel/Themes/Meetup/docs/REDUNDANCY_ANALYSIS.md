@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: "REDUNDANCY ANALYSIS"
 type: note
 tags: [documentation]
@@ -13,11 +12,6 @@ topic: REDUNDANCY_ANALYSIS
 canonical: ../../docs/shared-components/REDUNDANCY_ANALYSIS.md  # target mancante, verificato 2026-10-08
 status: superseded
 superseded_by: redundancy-analysis.md
-=======
-module: theme
-topic: REDUNDANCY_ANALYSIS
-canonical: ../../docs/shared-components/REDUNDANCY_ANALYSIS.md
->>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../docs/shared-components/REDUNDANCY_ANALYSIS.md

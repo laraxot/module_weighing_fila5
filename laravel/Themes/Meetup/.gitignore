@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 .env
 .env.*
 !.env.example
 
 # Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
 docs/archive/
-=======
-<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -26,8 +23,6 @@ docs/workbench
 scripts
 test-results
 tests/.claude-audit
-# Second brain: no-docs-archive (wiki) — non tracciare albero legacy docs/archive/
->>>>>>> laraxot/dev
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
 *~HEAD
 *~BASE
@@ -36,7 +31,6 @@ tests/.claude-audit
 *.orig
 *.rej
 *~head
-<<<<<<< HEAD
 
 agentdb.rvf
 
@@ -45,9 +39,7 @@ audit-coverage/
 tests/AuditCoverage/*
 # graphify-out: generated AST/knowledge graph — never commit (no git-lfs; rebuild with graphify update)
 graphify-out/
-=======
 tests/AuditCoverage
-=======
 /vendor/
 node_modules/
 npm-debug.log
@@ -66,7 +58,6 @@ public_html/storage
 public_html/hot
 
 storage/*.key
-.env
 Homestead.yaml
 Homestead.json
 /.vagrant
@@ -103,5 +94,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

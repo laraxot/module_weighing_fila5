@@ -120,7 +120,7 @@ describe('Notification Management Business Logic', function () {
     it('can create mail template version snapshot', function () {
         $template = MailTemplateFactory::new()->createOne();
         $version = MailTemplateVersionFactory::new()->createOne([
-            'template_id' => $template->id,
+            'mail_template_id' => $template->id,
             'subject' => 'Versione precedente',
             'html_template' => '<p>Snapshot</p>',
             'text_template' => 'Snapshot',

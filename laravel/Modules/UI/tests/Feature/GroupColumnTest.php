@@ -18,6 +18,8 @@ use Modules\UI\Tests\Fixtures\UiGroupColumnTypeEnum;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\UI\Tests\TestCase::class);
+
 /**
  * @return array{getTable: \Closure(): Table}
  */

@@ -8,6 +8,8 @@ use Mockery\MockInterface;
 use Modules\User\Models\Role;
 use Modules\Xot\Contracts\UserContract;
 
+uses(\Modules\User\Tests\TestCase::class);
+
 /*
  * Quali ruoli puo' assegnare chi opera dal pannello: il `super-admin` solo chi lo e' gia'.
  * Nessun database e nessuna app: operatori Mockery con i soli ruoli, builder Mockery al posto della query.

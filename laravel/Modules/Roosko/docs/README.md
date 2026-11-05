@@ -50,14 +50,7 @@ recupero, smaltimento, bonifica), registro di carico/scarico, invii RENTRI e UI 
 | `Shipment` | `shipments` | uscita `USC-{anno}-{progr}`; documento `ShipmentDocumentEnum`; `operation` R/D a destino |
 | `ShipmentItem` | `shipment_items` | unità caricata, snapshot dei kg |
 | `AreaWasteRule` | `area_waste_rules` | codice autorizzato (AuthorizedWaste) ammesso in un'area (R13/D15), limite d'area |
-<<<<<<< .merge_file_BfF0cD
-<<<<<<< HEAD
-=======
 | `Profile` | `profiles` | profilo utente del progetto: Xot lo usa quando `xra.main_module` è Roosko |
->>>>>>> laraxot/dev
-=======
-| `Profile` | `profiles` | profilo utente del progetto: Xot lo usa quando `xra.main_module` è Roosko |
->>>>>>> .merge_file_AyBssG
 
 Enum: `DeliveryStatusEnum`, `ShipmentStatusEnum` (con `canTransitionTo()`), `LotClassificationEnum`,
 `LotDestinationEnum`, `ShipmentDocumentEnum`. Etichette/colori/icone in `lang/{it,en}/*_enum.php`.
@@ -83,19 +76,7 @@ Supporto: `RunInPlantTransactionAction`, `GenerateDocumentCodeAction` (progressi
 `lockForUpdate`), `ResolveWasteLotAction`, `ResolvePlantSiteAction` (magazzino → sito tramite le regole
 d'area), `ResolvePlantRegisterAction`, `FindRentriCredentialAction`, `SubmitDigitalFirAcceptanceAction`,
 `QueueUnitLabelAction`, `GetLotLoadEntryIdsAction`, `GetLotStockKgAction`, `TraceLotOriginAction`,
-<<<<<<< .merge_file_BfF0cD
-<<<<<<< HEAD
-<<<<<<< HEAD
 `ResolveScannedCodeAction`, `ResolveOrderWarehouseAction`, `GetLocationOptionsAction`, `CastHazardPropertiesAction`, `GetQueueNameAction`.
-=======
-`ResolveScannedCodeAction`, `GetLocationOptionsAction`, `CastHazardPropertiesAction`, `GetQueueNameAction`.
->>>>>>> laraxot/dev
-=======
-`ResolveScannedCodeAction`, `ResolveOrderWarehouseAction`, `GetLocationOptionsAction`, `CastHazardPropertiesAction`, `GetQueueNameAction`.
->>>>>>> laraxot/dev
-=======
-`ResolveScannedCodeAction`, `ResolveOrderWarehouseAction`, `GetLocationOptionsAction`, `CastHazardPropertiesAction`, `GetQueueNameAction`.
->>>>>>> .merge_file_AyBssG
 
 Area clienti: `GetCustomerOperatorIdsAction` (soggetti del cliente, base di ogni scope),
 `ResolveCustomerSiteOperatorAction` (soggetto del cantiere creato dal cliente),
@@ -136,15 +117,6 @@ resource `DeliveryResource` (registra arrivo, pesa tara, accetta con repeater de
 `WasteLotResource` (view con unità, posizione, tracciabilità a monte), `ShipmentResource` (righe con
 carico da scansione, spedisci), `AreaWasteRuleResource`.
 
-<<<<<<< .merge_file_O6Sfpp
-<<<<<<< .merge_file_BfF0cD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_AyBssG
-=======
 ### Area clienti (`roosko::customer`, `/roosko/customer/{cliente}`)
 
 Pannello separato (`CustomerPanelProvider`, titolo «Roosko — Area clienti») per le imprese che
@@ -188,7 +160,6 @@ diverse: due query, niente join).
 L'utente entra da `/roosko/customer/login` e arriva su `/roosko/customer/{slug}`. Senza ruolo o senza
 clienti non entra; un cliente di cui non è membro risponde 404.
 
->>>>>>> .merge_file_DDgA5i
 ### Lavorazioni in corso (`TreatmentPage`, `/roosko/admin/treatments`)
 
 Gruppo «Impianto». Tabella degli ordini di Processing `in_progress` (avviati con «Avvia trattamento»
@@ -209,14 +180,6 @@ Per ogni riga:
 Testi in `lang/{it,en}/treatment.php` (pagina, colonne, bottoni), `register_treatment_product_table.php`
 e `complete_treatment_table.php` (modali e campi).
 
-<<<<<<< .merge_file_BfF0cD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_AyBssG
 ### UI operatore (`OperatorScanPage`, `/roosko/admin/operator`)
 
 - Campo di scansione sempre a fuoco: i lettori in **keyboard wedge** digitano il codice e Invio.
