@@ -9,6 +9,7 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('MailTemplate Model Tests', function () {
     it('can create a mail template', function () {
         $template = MailTemplateFactory::new()->createOne([

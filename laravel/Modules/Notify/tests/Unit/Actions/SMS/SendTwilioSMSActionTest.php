@@ -12,6 +12,7 @@ use ReflectionClass;
 use ReflectionNamedType;
 use Spatie\QueueableAction\QueueableAction;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('twilio sms action has the expected public contract', function (): void {
     $reflection = new ReflectionClass(SendTwilioSMSAction::class);
     $method = $reflection->getMethod('execute');

@@ -12,6 +12,7 @@ use Spatie\MailTemplates\Models\MailTemplate as SpatieMailTemplate;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Translatable\HasTranslations;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('MailTemplate Business Logic', function (): void {
     test('mail template extends spatie mail template', function (): void {
         Assert::assertSame(SpatieMailTemplate::class, get_parent_class(MailTemplate::class));

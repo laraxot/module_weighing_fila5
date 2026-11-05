@@ -12,6 +12,7 @@ use RuntimeException;
 
 use function Safe\preg_match_all;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /*
  * Scopo: ogni modifica di un MailTemplate lascia una MailTemplateVersion (storico
  * versionato soft-deletable) da cui si puo' ripristinare il contenuto con restoreTemplate().

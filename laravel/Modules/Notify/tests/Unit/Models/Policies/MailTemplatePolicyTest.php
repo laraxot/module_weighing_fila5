@@ -9,6 +9,7 @@ use Modules\User\Database\Factories\UserFactory;
 use Modules\Xot\Contracts\UserContract;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('mail template policy denies view any', function () {
     $policy = new MailTemplatePolicy;
     $user = UserFactory::new()->createOne();

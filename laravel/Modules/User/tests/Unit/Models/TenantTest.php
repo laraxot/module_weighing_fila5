@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\User\Tests\Unit\Models;
 
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Support\Str;
 use Modules\User\Models\Tenant;
 use Tests\TestCase;
 
@@ -251,5 +254,56 @@ class TenantTest extends TestCase
 
         static::assertCount(1, $darkThemeTenants);
         static::assertSame($darkTenant->id, $darkThemeTenants->firstOrFail()->id);
+    }
+
+    public function test_resolve_route_binding_query_preserve_slug_per_has_slug(): void
+    {
+        $tenant = new Tenant();
+
+        $calls = [];
+        $query = \Mockery::mock(Builder::class);
+        $query->shouldReceive('where')->andReturnUsing(
+            function ($field, $value) use (&$calls, $query) {
+                $calls[] = [$field, $value];
+
+                return $query;
+            }
+        );
+
+        $result = $tenant->resolveRouteBindingQuery($query, 'my-tenant', 'slug');
+
+        static::assertSame($query, $result);
+        static::assertContainsSame(['slug', 'my-tenant'], $calls);
+    }
+
+    public function test_resolve_route_binding_query_rifiuta_uuid_non_valido_sulla_chiave_univoca(): void
+    {
+        $tenant = new Tenant();
+
+        $this->expectException(ModelNotFoundException::class);
+
+        $tenant->resolveRouteBindingQuery(null, 'not-a-uuid', 'id');
+    }
+
+    public function test_resolve_route_binding_query_accetta_uuid_valido_sulla_chiave_univoca(): void
+    {
+        $tenant = new Tenant();
+
+        $uuid = (string) Str::uuid();
+
+        $calls = [];
+        $query = \Mockery::mock(Builder::class);
+        $query->shouldReceive('where')->andReturnUsing(
+            function ($field, $value) use (&$calls, $query) {
+                $calls[] = [$field, $value];
+
+                return $query;
+            }
+        );
+
+        $result = $tenant->resolveRouteBindingQuery($query, $uuid, 'id');
+
+        static::assertSame($query, $result);
+        static::assertContainsSame(['id', $uuid], $calls);
     }
 }

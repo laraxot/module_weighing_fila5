@@ -106,6 +106,7 @@ class Task extends BaseModel
 
     // use HasFrequencies;
     use FrontendSortable;
+<<<<<<< .merge_file_vkpOKs
 <<<<<<< .merge_file_ZET0Ji
 
 =======
@@ -114,13 +115,14 @@ class Task extends BaseModel
     // use HasFrequencies;
     use FrontendSortable;
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_11bguo
     /** > */
     use HasXotFactory;
 
     use Notifiable;
-
     use TaskMutators;
-
     use TaskRelations;
 
     protected $fillable = [

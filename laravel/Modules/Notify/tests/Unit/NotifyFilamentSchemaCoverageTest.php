@@ -9,6 +9,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\glob;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * @return array{string, string} radice `app/` del modulo e namespace corrispondente
  */

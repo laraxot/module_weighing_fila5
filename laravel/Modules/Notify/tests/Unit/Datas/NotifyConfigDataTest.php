@@ -13,6 +13,7 @@ use Modules\Notify\Tests\Support\FakeTenantNotifyConfig;
 use Modules\Tenant\Actions\Config\GetTenantFilePathAction;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * @return list<string>
  */

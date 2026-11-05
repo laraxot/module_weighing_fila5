@@ -4,15 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models\Traits;
 
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Illuminate\Support\Carbon;
-use Modules\Media\Models\Media;
-use Modules\Notify\Enums\NotificationLogStatusEnum;
-use Modules\Xot\Contracts\ProfileContract;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Modules\Notify\Models\NotificationTemplate;
 
 trait NotificationLogRelations
@@ -32,9 +26,9 @@ trait NotificationLogRelations
 =======
 >>>>>>> laraxot/dev
     /**
-     * @phpstan-return MorphTo<\Illuminate\Database\Eloquent\Model, $this>
+     * @phpstan-return MorphTo<Model, $this>
      */
-    function notifiable(): MorphTo
+    public function notifiable(): MorphTo
     {
         return $this->morphTo();
     }
@@ -42,13 +36,16 @@ trait NotificationLogRelations
     /**
      * @phpstan-return BelongsTo<NotificationTemplate, $this>
      */
-    function template(): BelongsTo
+    public function template(): BelongsTo
     {
         return $this->belongsTo(NotificationTemplate::class, 'template_id');
     }
+<<<<<<< .merge_file_PsnKGY
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
+=======
+>>>>>>> .merge_file_lTgcOi
 }

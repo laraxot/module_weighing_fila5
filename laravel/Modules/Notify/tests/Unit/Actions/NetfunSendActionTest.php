@@ -12,6 +12,7 @@ use ReflectionClass;
 use function Safe\class_uses;
 use function Safe\file_get_contents;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('NetfunSendAction', function () {
     it('has execute method returning array', function () {
         $reflection = new ReflectionClass(NetfunSendAction::class);

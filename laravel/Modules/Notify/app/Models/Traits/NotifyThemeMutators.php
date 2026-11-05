@@ -4,31 +4,25 @@ declare(strict_types=1);
 
 namespace Modules\Notify\Models\Traits;
 
-use Eloquent;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Illuminate\Support\Carbon;
-use Modules\Media\Models\Media;
-use Modules\Notify\Database\Factories\NotifyThemeFactory;
-use Modules\Xot\Contracts\ProfileContract;
-use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
-
 trait NotifyThemeMutators
 {
     /**
+<<<<<<< .merge_file_dfVU3d
      * @param array<string, int> $value
 <<<<<<< HEAD
 <<<<<<< HEAD
      * @return array<string, int>
 =======
+=======
+     * @param  array<string, int>  $value
+>>>>>>> .merge_file_z0tC8k
      * @return array<string, int|string>
 >>>>>>> laraxot/dev
 =======
      * @return array<string, int|string>
 >>>>>>> laraxot/dev
      */
-    function getLogoAttribute(?array $value): array
+    public function getLogoAttribute(?array $value): array
     {
         return $this->getLogo();
     }
@@ -49,7 +43,7 @@ trait NotifyThemeMutators
     /**
      * @return array<string, int|string>
      */
-    function getLogo(): array
+    public function getLogo(): array
     {
         return [
             // 'path' => asset(strval($this->logo_src)),
@@ -57,9 +51,12 @@ trait NotifyThemeMutators
             'width' => (int) ($this->logo_width ?? 50),
             'height' => (int) ($this->logo_height ?? 50)];
     }
+<<<<<<< .merge_file_dfVU3d
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
+=======
+>>>>>>> .merge_file_z0tC8k
 }

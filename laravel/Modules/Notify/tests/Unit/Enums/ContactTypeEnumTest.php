@@ -13,6 +13,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\class_implements;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 it('has correct cases', function (): void {
     Assert::assertCount(6, ContactTypeEnum::cases());
     Assert::assertSame('phone', ContactTypeEnum::PHONE->value);

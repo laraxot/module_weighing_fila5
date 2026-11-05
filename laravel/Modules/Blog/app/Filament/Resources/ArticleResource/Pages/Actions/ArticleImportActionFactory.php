@@ -20,7 +20,7 @@ final class ArticleImportActionFactory
                 FileUpload::make('file')
                     ->label('')
                     ->imagePreviewHeight('250')
-                    ->reactive()
+                    ->live()
                     ->afterStateUpdated(static function (callable $set, TemporaryUploadedFile $state): void {
                         $set('fileContent', File::get($state->getRealPath()));
                     }),

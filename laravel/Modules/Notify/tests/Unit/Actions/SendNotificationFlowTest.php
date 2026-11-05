@@ -15,6 +15,7 @@ use Modules\Notify\Models\NotificationTemplate;
 use Modules\User\Database\Factories\UserFactory;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('Send notification flow', function (): void {
     test('template lookup returns null when code missing', function (): void {
         $result = NotificationTemplate::query()

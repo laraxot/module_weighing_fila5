@@ -19,6 +19,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 
 use function Safe\class_implements;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /*
  * Scopo: ogni versione salvata di un NotificationTemplate e' un modello Notify con tracking
  * creator/updater e media, che sa ripristinare il template d'origine con restoreTemplate().

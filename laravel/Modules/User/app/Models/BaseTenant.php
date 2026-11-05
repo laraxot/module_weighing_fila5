@@ -45,17 +45,38 @@ use Spatie\Sluggable\SlugOptions;
  */
 abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia, TenantContract
 {
+<<<<<<< .merge_file_ph9D3d
     use HasSlug;
 <<<<<<< HEAD
 =======
     /** La chiave è una stringa: senza un id esplicito viene generato un UUID. */
     use HasUuids;
 >>>>>>> laraxot/dev
+=======
+    use HasSlug {
+        \Spatie\Sluggable\HasSlug::resolveRouteBindingQuery as resolveRouteBindingQueryFromSlug;
+    }
+    /** La chiave è una stringa: senza un id esplicito viene generato un UUID. */
+    use HasUuids {
+        \Illuminate\Database\Eloquent\Concerns\HasUuids::resolveRouteBindingQuery as resolveRouteBindingQueryFromUuids;
+    }
+>>>>>>> .merge_file_5aEpyZ
     use InteractsWithMedia;
 
     public $incrementing = false;
 
     protected $keyType = 'string';
+
+    /**
+     * Risolve la collisione tra HasSlug e HasUuids su resolveRouteBindingQuery:
+     * valida l'UUID per le chiavi univoche (HasUuids), poi risolve lo slug (HasSlug).
+     */
+    public function resolveRouteBindingQuery($query, $value, $field = null)
+    {
+        $query = $this->resolveRouteBindingQueryFromUuids($query, $value, $field);
+
+        return $this->resolveRouteBindingQueryFromSlug($query, $value, $field);
+    }
 
     /** @var list<string> */
     protected $fillable = [

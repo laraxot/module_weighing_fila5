@@ -78,6 +78,7 @@ use function Pest\Laravel\artisan;
 use function Safe\file_put_contents;
 use function Safe\unlink;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * @param  class-string  $class
  */

@@ -39,11 +39,11 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses QueueableAction trait', function (): void {
-            assertMediaUsesQueueableAction(ImageMerge::class);
+            TestCase::assertMediaUsesQueueableAction(ImageMerge::class);
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(ImageMerge::class);
+            TestCase::assertMediaDeclaresStrictTypes(ImageMerge::class);
         });
     });
 
@@ -59,7 +59,7 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(SvgExistsAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(SvgExistsAction::class);
         });
     });
 
@@ -75,11 +75,11 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses QueueableAction trait', function (): void {
-            assertMediaUsesQueueableAction(ConvertVideoAction::class);
+            TestCase::assertMediaUsesQueueableAction(ConvertVideoAction::class);
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(ConvertVideoAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(ConvertVideoAction::class);
         });
     });
 
@@ -93,11 +93,11 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses QueueableAction trait', function (): void {
-            assertMediaUsesQueueableAction(ConvertVideoByConvertDataAction::class);
+            TestCase::assertMediaUsesQueueableAction(ConvertVideoByConvertDataAction::class);
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(ConvertVideoByConvertDataAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(ConvertVideoByConvertDataAction::class);
         });
     });
 
@@ -111,11 +111,11 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses QueueableAction trait', function (): void {
-            assertMediaUsesQueueableAction(ConvertVideoByMediaConvertAction::class);
+            TestCase::assertMediaUsesQueueableAction(ConvertVideoByMediaConvertAction::class);
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(ConvertVideoByMediaConvertAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(ConvertVideoByMediaConvertAction::class);
         });
     });
 
@@ -129,11 +129,11 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses QueueableAction trait', function (): void {
-            assertMediaUsesQueueableAction(GetVideoScreenshotAction::class);
+            TestCase::assertMediaUsesQueueableAction(GetVideoScreenshotAction::class);
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(GetVideoScreenshotAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(GetVideoScreenshotAction::class);
         });
     });
 
@@ -147,11 +147,11 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses QueueableAction trait', function (): void {
-            assertMediaUsesQueueableAction(GetVideoFrameContentAction::class);
+            TestCase::assertMediaUsesQueueableAction(GetVideoFrameContentAction::class);
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(GetVideoFrameContentAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(GetVideoFrameContentAction::class);
         });
     });
 
@@ -165,11 +165,11 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses QueueableAction trait', function (): void {
-            assertMediaUsesQueueableAction(GetVideoDurationAction::class);
+            TestCase::assertMediaUsesQueueableAction(GetVideoDurationAction::class);
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(GetVideoDurationAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(GetVideoDurationAction::class);
         });
     });
 
@@ -183,7 +183,7 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(UploadFileAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(UploadFileAction::class);
         });
     });
 
@@ -197,7 +197,7 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(DeleteFileAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(DeleteFileAction::class);
         });
     });
 
@@ -211,7 +211,7 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(GetFileInfoAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(GetFileInfoAction::class);
         });
     });
 
@@ -225,7 +225,7 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(CheckFileExistsAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(CheckFileExistsAction::class);
         });
     });
 
@@ -235,11 +235,11 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses QueueableAction trait', function (): void {
-            assertMediaUsesQueueableAction(BaseS3Action::class);
+            TestCase::assertMediaUsesQueueableAction(BaseS3Action::class);
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(BaseS3Action::class);
+            TestCase::assertMediaDeclaresStrictTypes(BaseS3Action::class);
         });
 
         it('has s3Client property', function (): void {
@@ -265,11 +265,11 @@ describe('Media Actions Coverage', function () {
         });
 
         it('uses QueueableAction trait', function (): void {
-            assertMediaUsesQueueableAction(GetCloudFrontSignedUrlAction::class);
+            TestCase::assertMediaUsesQueueableAction(GetCloudFrontSignedUrlAction::class);
         });
 
         it('uses strict types', function (): void {
-            assertMediaDeclaresStrictTypes(GetCloudFrontSignedUrlAction::class);
+            TestCase::assertMediaDeclaresStrictTypes(GetCloudFrontSignedUrlAction::class);
         });
     });
 });

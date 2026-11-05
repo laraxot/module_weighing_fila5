@@ -7,11 +7,12 @@ type: concept
 module: Lang
 tags: [migrations, nwidart, database, path, anti-pattern]
 created: 2026-07-01
-updated: 2026-06-30
+updated: 2026-11-05
 related:
   - ../../redundancy-audit.md
   - ../../case-sensitivity-rules.md
   - ../../../../../../docs/wiki/index/llm-wiki.md
+  - ../../../Xot/docs/wiki/rules/migration-filename-from-model-name.md
 status: draft
 ---
 
@@ -38,9 +39,12 @@ La sottocartella **`migrations/Migrations/`** è un anti-pattern peggiore del so
 
 ## Stato modulo Lang
 
-- Canonico: `laravel/Modules/Lang/database/migrations/` (solo file `.php` + `.gitkeep`)
+- Canonico: `laravel/Modules/Lang/database/migrations/` (file `.php` + `.gitkeep`)
 - Vietato: qualsiasi `*/Migrations/` sotto `Lang/database/`
-- Duplicati `.old3` / cartelle `Migrations/`: rimossi 2026-06-30 (git history conserva il contenuto)
+- Audit 2026-11-05: trovata una cartella legacy `database/Migrations/` con una
+  variante `language_lines` e un backup `.old3`. Non è il path caricato dal
+  provider Xot; la sua rimozione resta da pianificare dopo la verifica dei
+  repository e dei deploy.
 
 ## Migrazioni canoniche per modello
 
@@ -50,6 +54,16 @@ La sottocartella **`migrations/Migrations/`** è un anti-pattern peggiore del so
 | `Translation` | `2026_01_21_211815_create_translations_table.php` |
 | `TranslationFile` | Sushi: nessuna tabella DB |
 | `language_lines` | `2024_03_20_000001_create_language_lines_table.php`: tabella Spatie translation-loader (modello vendor, non modulo) |
+
+Migrazioni additive per `Post` e `Translation`:
+
+| Modello | File migrazione |
+|---------|-----------------|
+| `Post` | `2026_11_05_100000_update_posts_table.php` |
+| `Translation` | `2026_11_05_100001_update_translations_table.php` |
+
+Anche gli aggiornamenti usano la tabella plurale nel filename; l'azione è
+esplicita e `$model_class` identifica il modello owner.
 
 ## Verifica
 

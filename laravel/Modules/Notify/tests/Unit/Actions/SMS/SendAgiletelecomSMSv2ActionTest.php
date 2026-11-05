@@ -10,6 +10,7 @@ use PHPUnit\Framework\Assert;
 use ReflectionClass;
 use ReflectionNamedType;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('SendAgiletelecomSMSv2Action', function () {
     it('can be instantiated', function () {
         Assert::assertTrue(class_exists(SendAgiletelecomSMSv2Action::class));

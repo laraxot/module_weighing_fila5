@@ -9,6 +9,7 @@ use Modules\Notify\Tests\TestCase;
 
 use function Safe\json_encode;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 class NotificationTest extends TestCase
 {
 

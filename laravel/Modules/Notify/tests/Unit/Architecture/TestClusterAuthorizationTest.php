@@ -12,6 +12,7 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 
 use function Safe\glob;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * Il cluster "Test" invia email/SMS/WhatsApp/Telegram/Push con le credenziali aziendali:
  * deve restare riservato al super-admin (NTF-02). Nessuna query: utente e guard sono mock.

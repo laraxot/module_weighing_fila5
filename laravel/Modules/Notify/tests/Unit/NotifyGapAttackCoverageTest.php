@@ -34,6 +34,7 @@ use Modules\Notify\Notifications\RecordNotification;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 afterEach(function (): void {
     Mockery::close();
 });

@@ -17,6 +17,7 @@ use PHPUnit\Framework\Assert;
 
 use function Pest\Laravel\actingAs;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 beforeEach(function (): void {
     $user = UserFactory::new()->createOne();
     Assert::assertInstanceOf(Authenticatable::class, $user);

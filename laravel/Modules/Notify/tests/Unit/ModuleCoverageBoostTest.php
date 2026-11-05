@@ -10,6 +10,7 @@ use ReflectionClass;
 
 use function Safe\glob;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * @return list<class-string>
  */

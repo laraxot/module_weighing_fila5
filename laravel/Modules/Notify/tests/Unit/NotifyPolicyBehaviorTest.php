@@ -14,6 +14,7 @@ use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Contracts\UserContract;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * @param  list<string>  $roles
  * @return Mockery\MockInterface&UserContract

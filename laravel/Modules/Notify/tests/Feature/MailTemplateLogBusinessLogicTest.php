@@ -6,6 +6,7 @@ use Modules\Notify\Models\MailTemplate;
 use Modules\Notify\Models\MailTemplateLog;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('Mail Template Log Business Logic', function () {
     it('can create mail template log with basic information', function () {
         $template = MailTemplate::factory()->create();

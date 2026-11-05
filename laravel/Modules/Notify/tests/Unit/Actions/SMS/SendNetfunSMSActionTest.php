@@ -14,6 +14,7 @@ use Spatie\QueueableAction\QueueableAction;
 
 use function Safe\json_encode;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('netfun sms action has the expected public contract', function (): void {
     $reflection = new ReflectionClass(SendNetfunSMSAction::class);
     $method = $reflection->getMethod('execute');

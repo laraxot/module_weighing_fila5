@@ -9,6 +9,7 @@ use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('EmailAttachmentData', function () {
     it('can be referenced via reflection without instantiation', function () {
         $reflection = new \ReflectionClass(EmailAttachmentData::class);

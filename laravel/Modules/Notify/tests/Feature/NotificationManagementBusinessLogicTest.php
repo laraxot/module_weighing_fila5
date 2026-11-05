@@ -23,6 +23,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\json_encode;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('Notification Management Business Logic', function () {
     it('can create notification with core fields', function () {
         $notification = NotificationFactory::new()->createOne([

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Job\Models;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
@@ -61,6 +60,7 @@ class Result extends BaseModel
         'task_id',
     ];
 
+<<<<<<< .merge_file_F3JGjs
     /**
      * @return \Illuminate\Database\Query\Builder
      */
@@ -71,6 +71,8 @@ class Result extends BaseModel
 >>>>>>> .merge_file_sdIjHD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_gqFTrN
     public function getLastRun(): Builder
     {
         return $this->select('ran_at')

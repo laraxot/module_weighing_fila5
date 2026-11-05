@@ -60,6 +60,10 @@ cosi' da **non vedere ne' disperdere dati di altri clienti**.
 - 2026-11-05 — Follow-up PHPStan: il fixture helper restituiva `Model`, nascondendo
   la relazione `tenant()` fornita dal trait. Ora restituisce il fixture concreto;
   nessuna modifica al modello o al comportamento runtime.
+- Verifica: PHPStan sul file di test passa. Pest non riesce ancora a caricare
+  `BaseTenant`: i trait `HasSlug` e `HasUuids` dichiarano entrambi
+  `resolveRouteBindingQuery`; finding registrato nella story
+  `tenant-key-string.story.md` prima di chiudere il gate Pest.
 
 ## Seguiti proposti
 

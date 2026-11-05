@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\Notify\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
 use Modules\Media\Models\Media;
@@ -90,6 +89,7 @@ class MailTemplateVersion extends BaseModel
         'created_by',
         'change_notes'];
 
+<<<<<<< .merge_file_XWQSFV
 <<<<<<< HEAD
 <<<<<<< HEAD
     /** @return BelongsTo<MailTemplate, $this> */
@@ -105,6 +105,8 @@ class MailTemplateVersion extends BaseModel
      * @return MailTemplate
      */
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_BoPnmA
     public function restoreTemplate(): MailTemplate
     {
         $template = $this->template;

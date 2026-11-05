@@ -8,7 +8,6 @@ declare(strict_types=1);
 namespace Modules\Job\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
 use Modules\Job\Database\Factories\ScheduleHistoryFactory;
 use Modules\Job\Models\Traits\ScheduleHistoryRelations;

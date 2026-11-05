@@ -19,6 +19,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\json_encode;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 it('can create a notification', function () {
     $notification = NotificationFactory::new()->createOne([
         'type' => 'App\Notifications\UserRegistered',

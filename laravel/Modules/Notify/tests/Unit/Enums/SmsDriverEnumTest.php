@@ -12,6 +12,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\class_implements;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 it('has correct cases', function (): void {
     Assert::assertCount(1, SmsDriverEnum::cases());
 

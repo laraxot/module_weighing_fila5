@@ -19,16 +19,14 @@ trait ParameterRelations
 =======
 >>>>>>> laraxot/dev
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Support\Carbon;
-use Modules\Job\Database\Factories\ParameterFactory;
 use Modules\Job\Models\Frequency;
-use Modules\Xot\Contracts\ProfileContract;
 
 trait ParameterRelations
 {
     /**
      * @phpstan-return BelongsTo<Frequency, $this>
      */
+<<<<<<< .merge_file_2H3z7P
 <<<<<<< HEAD
 >>>>>>> .merge_file_fL1HNH
 =======
@@ -38,4 +36,10 @@ trait ParameterRelations
             return $this->belongsTo(Frequency::class);
         }
 
+=======
+    public function task(): BelongsTo
+    {
+        return $this->belongsTo(Frequency::class);
+    }
+>>>>>>> .merge_file_apsgkQ
 }

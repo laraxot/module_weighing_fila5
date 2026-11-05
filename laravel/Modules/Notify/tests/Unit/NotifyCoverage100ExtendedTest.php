@@ -20,6 +20,7 @@ use Modules\Notify\Actions\Push\SendScheduledPushNotificationAction;
 use Modules\Notify\Notifications\Channels\FirebaseCloudMessagingChannel;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 afterEach(function (): void {
     Mockery::close();
 });

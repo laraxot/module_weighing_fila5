@@ -12,6 +12,7 @@ use PHPUnit\Framework\Assert;
 use Modules\Notify\Tests\TestCase;
 use Modules\Xot\Tests\XotBasePest;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 beforeEach(function (): void {
     $user = UserFactory::new()->createOne(['email' => 'test@example.com']);
     $this->actingAs($user);

@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Enums;
 use Modules\Notify\Enums\MediaTypeEnum;
 use PHPUnit\Framework\TestCase;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 class MediaTypeEnumTest extends TestCase
 {
     /** @test */

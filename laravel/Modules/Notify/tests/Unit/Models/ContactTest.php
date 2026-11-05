@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Models;
 use Modules\Notify\Models\Contact;
 use Tests\TestCase;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 class ContactTest extends TestCase
 {
 

@@ -4,13 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Job\Models\Traits;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Query\Builder;
-use Illuminate\Support\Carbon;
-use Illuminate\Support\Facades\DB;
-use Modules\Xot\Contracts\ProfileContract;
-use Override;
 use Modules\Job\Models\Task;
 
 trait ResultRelations
@@ -21,6 +15,7 @@ trait ResultRelations
     /**
      * @phpstan-return BelongsTo<Task, $this>
      */
+<<<<<<< .merge_file_utY9n9
 >>>>>>> .merge_file_zBTNSh
 =======
     /**
@@ -32,4 +27,10 @@ trait ResultRelations
             return $this->belongsTo(Task::class);
         }
 
+=======
+    public function task(): BelongsTo
+    {
+        return $this->belongsTo(Task::class);
+    }
+>>>>>>> .merge_file_YDgtIu
 }

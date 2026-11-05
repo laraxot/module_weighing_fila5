@@ -12,6 +12,7 @@ use Modules\Notify\Actions\SendNotificationToRecipientAction;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 function makeDummyNotificationForRecipient(): IlluminateNotification
 {
     return new class extends IlluminateNotification

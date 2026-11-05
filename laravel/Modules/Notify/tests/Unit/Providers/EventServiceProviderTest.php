@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Providers;
 use Modules\Notify\Providers\EventServiceProvider;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('event service provider has empty listen map', function () {
     $provider = new EventServiceProvider(app());
 

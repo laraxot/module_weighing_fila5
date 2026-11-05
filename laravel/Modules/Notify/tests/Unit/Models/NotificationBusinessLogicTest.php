@@ -7,6 +7,7 @@ use Illuminate\Support\Carbon;
 use Modules\Notify\Models\Notification;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('Notification Business Logic', function (): void {
     test('notification extends xot base model', function (): void {
         $notification = new Notification;

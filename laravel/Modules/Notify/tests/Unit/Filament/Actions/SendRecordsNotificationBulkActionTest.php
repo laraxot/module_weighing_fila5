@@ -15,6 +15,7 @@ use Modules\Notify\Tests\Fixtures\SendRecordsNotificationBulkActionSpy;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * @param  array<string, mixed>  $attributes
  */

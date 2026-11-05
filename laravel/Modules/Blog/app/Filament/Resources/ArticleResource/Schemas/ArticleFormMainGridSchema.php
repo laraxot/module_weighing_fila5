@@ -23,7 +23,7 @@ final class ArticleFormMainGridSchema
             TextInput::make('title')
                 ->columnSpan(1)
                 ->required()
-                ->lazy()
+                ->live(onBlur: true)
                 ->afterStateUpdated(static function (mixed $set, mixed $get, mixed $state): void {
                     Assert::isCallable($set, 'set must be callable');
                     Assert::isCallable($get, 'get must be callable');

@@ -11,6 +11,7 @@ use Modules\Notify\Filament\Forms\Components\MailTemplateSelect;
 use Modules\Notify\Tests\Fixtures\ContactSectionTestProxy;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('channel checkbox list and selects have expected default names', function () {
     $channels = ChannelCheckboxList::make();
     $mailTemplate = MailTemplateSelect::make();

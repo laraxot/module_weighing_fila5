@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Enums;
 use Modules\Notify\Enums\NotificationLogStatusEnum;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('it exposes all expected statuses', function () {
     $values = array_map(
         static fn (NotificationLogStatusEnum $case): string => $case->value,

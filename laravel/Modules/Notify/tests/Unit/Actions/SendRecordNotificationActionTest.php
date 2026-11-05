@@ -12,6 +12,7 @@ use Modules\Notify\Enums\ChannelEnum;
 use Modules\Notify\Notifications\RecordNotification;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * @param  array<string, mixed>  $attributes
  */

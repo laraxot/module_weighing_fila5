@@ -32,7 +32,7 @@ class ListBanners extends XotBaseListRecords
                         ->label('')
                         // ->acceptedFileTypes(['application/json', 'json'])
                         ->imagePreviewHeight('250')
-                        ->reactive()
+                        ->live()
                         ->afterStateUpdated(static function (callable $set, TemporaryUploadedFile $state): void {
                             $set('fileContent', File::get($state->getRealPath()));
                         }),

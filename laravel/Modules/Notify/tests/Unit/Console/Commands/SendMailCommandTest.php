@@ -7,6 +7,7 @@ namespace Modules\Notify\Tests\Unit\Console\Commands;
 use Modules\Notify\Console\Commands\SendMailCommand;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('SendMailCommand', function () {
     it('has correct signature', function () {
         $command = new SendMailCommand;

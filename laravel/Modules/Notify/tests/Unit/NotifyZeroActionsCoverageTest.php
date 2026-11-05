@@ -17,6 +17,7 @@ use Modules\Notify\Datas\SmsData;
 use Modules\Notify\Notifications\FirebaseAndroidNotification;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 afterEach(function (): void {
     Mockery::close();
 });

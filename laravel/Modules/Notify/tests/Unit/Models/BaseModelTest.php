@@ -8,6 +8,7 @@ use Modules\Notify\Models\BaseModel;
 use Modules\Xot\Models\XotBaseModel;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('base model extends eloquent model', function () {
     $parent = (new \ReflectionClass(BaseModel::class))->getParentClass();
     Assert::assertNotFalse($parent);

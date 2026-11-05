@@ -6,9 +6,18 @@ namespace Modules\User\Models\Policies;
 
 use Modules\User\Models\Role as Post;
 use Modules\Xot\Contracts\UserContract;
+use Modules\Xot\Models\Policies\Concerns\DeniesUndeclaredFilamentAbilities;
 
+/**
+ * Ruoli: gestione riservata al super-admin (passa da XotBasePolicy::before()).
+ *
+ * Concedere create/update/delete o il collegamento dei ruoli a chi amministra gli utenti
+ * permette di rinominare o assegnarsi il ruolo super-admin (escalation di privilegi).
+ */
 class RolePolicy extends UserBasePolicy
 {
+    use DeniesUndeclaredFilamentAbilities;
+
     /**
      * Determine whether the user can view any models.
      */
@@ -30,7 +39,7 @@ class RolePolicy extends UserBasePolicy
      */
     public function create(UserContract $_user): bool
     {
-        return true;
+        return false;
     }
 
     /**
@@ -38,7 +47,7 @@ class RolePolicy extends UserBasePolicy
      */
     public function update(UserContract $_user, Post $_post): bool
     {
-        return true;
+        return false;
     }
 
     /**
@@ -46,7 +55,7 @@ class RolePolicy extends UserBasePolicy
      */
     public function addTeamMember(UserContract $user, Post $post): bool
     {
-        return true;
+        return false;
     }
 
     /**
@@ -54,7 +63,7 @@ class RolePolicy extends UserBasePolicy
      */
     public function updateTeamMember(UserContract $user, Post $post): bool
     {
-        return true;
+        return false;
     }
 
     /**
@@ -62,7 +71,7 @@ class RolePolicy extends UserBasePolicy
      */
     public function removeTeamMember(UserContract $user, Post $post): bool
     {
-        return true;
+        return false;
     }
 
     /**
@@ -70,6 +79,6 @@ class RolePolicy extends UserBasePolicy
      */
     public function delete(UserContract $_user, Post $_post): bool
     {
-        return true;
+        return false;
     }
 }

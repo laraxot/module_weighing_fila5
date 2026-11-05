@@ -8,6 +8,7 @@ use Modules\Notify\Enums\ContactTypeEnum;
 use Modules\Notify\Tests\Fixtures\HasContactDummyModel;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 function makeHasContactDummyModel(): HasContactDummyModel
 {
     return new HasContactDummyModel;

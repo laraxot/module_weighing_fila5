@@ -17,6 +17,7 @@ use Modules\Notify\Tests\Fixtures\SendRecordsSafeEloquentCastStub;
 use Modules\Xot\Actions\Cast\SafeEloquentCastAction;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 /**
  * @param  array<string, mixed>  $attributes
  */

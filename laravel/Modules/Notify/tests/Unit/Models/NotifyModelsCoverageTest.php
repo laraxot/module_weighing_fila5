@@ -13,6 +13,7 @@ use Modules\Notify\Tests\Fixtures\NotifyBasePivotProxy;
 use Modules\Notify\Tests\Fixtures\NotifyNotificationTemplateProxy;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 function makeNotifyBaseMorphPivotProxy(): NotifyBaseMorphPivotProxy
 {
     return new NotifyBaseMorphPivotProxy;

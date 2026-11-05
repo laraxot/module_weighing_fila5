@@ -9,6 +9,7 @@ use Modules\Notify\Datas\EmailData;
 use Modules\Notify\Emails\EmailDataEmail;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('email data email envelope uses explicit sender and subject', function (): void {
     $emailData = new EmailData(
         recipient: 'recipient@example.test',

@@ -8,6 +8,7 @@ use Filament\Panel;
 use Modules\Notify\Providers\Filament\AdminPanelProvider;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('admin panel provider returns a panel instance', function () {
     $provider = new AdminPanelProvider(app());
     $panel = $provider->panel(Panel::make());

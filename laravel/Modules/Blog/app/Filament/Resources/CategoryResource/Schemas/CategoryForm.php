@@ -26,7 +26,7 @@ class CategoryForm extends XotBaseResourceForm
             TextInput::make('title')
                 ->required()
                 ->maxLength(2048)
-                ->reactive()
+                ->live()
                 ->unique()
                 ->afterStateUpdated(function (Set $set, mixed $state): void {
                     $set('slug', Str::slug(is_string($state) ? $state : ''));

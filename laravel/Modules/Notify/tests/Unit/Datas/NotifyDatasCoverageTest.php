@@ -17,6 +17,7 @@ use Modules\Notify\Datas\WhatsAppData;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 test('netfun sms request and response data can be created from arrays', function () {
     $request = NetfunSmsRequestData::fromArray([
         'token' => 'abc-token',

@@ -8,6 +8,7 @@ use Modules\Notify\Console\Commands\AnalyzeTranslationFiles;
 use Modules\Xot\Tests\XotBasePest;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 describe('AnalyzeTranslationFiles', function () {
     it('has correct signature', function () {
         $command = new AnalyzeTranslationFiles;

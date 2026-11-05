@@ -20,6 +20,7 @@ use Modules\Notify\Filament\Tables\Columns\ContactColumn;
 use Modules\Notify\Tests\Fixtures\EditNotifyThemeTestProxy;
 use PHPUnit\Framework\Assert;
 
+uses(\Modules\Notify\Tests\TestCase::class);
 function makeEditNotifyThemeTestProxy(): EditNotifyThemeTestProxy
 {
     return new EditNotifyThemeTestProxy;
