@@ -31,6 +31,7 @@ Un ticket chiuso o annullato non si modifica: la guardia è in `Weighing::booted
 | `GenerateWeighingTicketNumberAction` | `execute(?CarbonImmutable $at = null): string` |
 | `EnsureScaleUsableAction` | `execute(Scale $scale, ?float $kg = null): void` |
 | `NormalizeVehiclePlateAction` | `execute(?string $plate): ?string` |
+| `EnsureScaleAddressAllowedAction` | `execute(?string $host, int $port): string` (IP a cui collegarsi; form bilancia e driver TCP) |
 
 Il parametro finale `?string $rawReading` è un'aggiunta compatibile con le firme della SPEC. Contiene la riga grezza ricevuta dall'indicatore e viene salvato in `raw_readings`, insieme a fase, kg, bilancia e data.
 
@@ -49,14 +50,17 @@ Le pesate si registrano solo su bilance attive, con verificazione periodica vali
 Il driver si sceglie con `ScaleDriverEnum::driverClass()` e implementa `ScaleDriverContract::read(Scale): ScaleReadingData`.
 
 - **`TcpAsciiScaleDriver`**:
-  1. apre un socket TCP verso `host:port`, con porta di default `tcp_ascii.default_port` e timeout di connessione da config;
+  1. controlla l'indirizzo con `EnsureScaleAddressAllowedAction` (rete locale o `allowed_scale_hosts`, porta in `scale_ports`) e apre un socket TCP verso l'IP controllato, con porta di default `tcp_ascii.default_port` e timeout di connessione da config;
   2. invia l'eventuale `request_command` (indicatori che rispondono solo a richiesta);
   3. legge fino a `max_lines` righe entro `read_timeout` e restituisce la prima lettura stabile, altrimenti l'ultima lettura valida.
 
   Gli errori diventano eccezioni di dominio:
   - host mancante o connessione rifiutata: `ScaleConnectionException`;
   - nessun dato: `ScaleTimeoutException`;
-  - solo righe illeggibili: `ScaleReadingParseException`.
+  - solo righe illeggibili: `ScaleReadingParseException`;
+  - indirizzo o porta non consentiti: `ScaleAddressNotAllowedException`.
+
+  I messaggi all'operatore non riportano mai il testo ricevuto dal dispositivo né l'errore del socket (vanno nel log): il gestionale non deve diventare uno strumento per leggere banner di servizi interni.
 - **`ParseScaleReadingAction`** interpreta la riga:
   - prende l'ultimo numero (con segno e decimali, virgola o punto) che soddisfa `weight_pattern`, che ha il gruppo `weight`;
   - la lettura è stabile se la riga contiene `stable_marker` (default `ST`);
@@ -82,6 +86,8 @@ Le due azioni "Leggi bilancia" prendono i testi dal lang di Weighing (`read_scal
 
 - `tcp_ascii.*`: timeout, righe massime, comando di richiesta, porta di default, regex del peso, marcatore di stabilità, fattore di unità.
 - `fake.weight_kg|stable`: la lettura simulata.
+- `allowed_scale_hosts` (env `WEIGHING_ALLOWED_SCALE_HOSTS`, separati da virgola): indirizzi a cui il server può collegarsi. Vuota = solo IP privati di LAN (10/8, 172.16/12, 192.168/16, fc00::/7) e hostname che si risolvono lì. Valorizzata = solo IP, CIDR, hostname esatti o `*.dominio` elencati. Metadata cloud, link-local, 0.0.0.0/8 e multicast sempre vietati.
+- `scale_ports.min|max`: porte ammesse per gli indicatori (default 1024–65535).
 - `require_valid_verification`: obbligo di verificazione periodica valida.
 
 ## Requisiti del progetto

@@ -33,6 +33,21 @@ return [
         'unit_factor' => 1.0,
     ],
 
+    /*
+     * Indirizzi a cui il server puo' collegarsi per leggere le bilance (EnsureScaleAddressAllowedAction).
+     * Vuota: solo IP privati di LAN (10/8, 172.16/12, 192.168/16, fc00::/7) e hostname che si
+     * risolvono li'; niente loopback ne' indirizzi pubblici. Valorizzata: solo le voci elencate,
+     * IP, CIDR (es. '192.168.10.0/24'), hostname esatti o '*.dominio'. Metadata cloud e link-local
+     * restano sempre vietati.
+     */
+    'allowed_scale_hosts' => array_values(array_filter(array_map('trim', explode(',', (string) env('WEIGHING_ALLOWED_SCALE_HOSTS', ''))))),
+
+    // Porte ammesse per gli indicatori di rete (niente SSH, SMTP, HTTP...).
+    'scale_ports' => [
+        'min' => 1024,
+        'max' => 65535,
+    ],
+
     // Driver `fake`: lettura fissa per test e demo.
     'fake' => [
         'weight_kg' => 12500.0,

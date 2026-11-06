@@ -53,8 +53,7 @@ trait InteractsWithScaleReading
             ->title($this->transReadScale($reading->stable ? 'success' : 'unstable', [
                 'scale' => $scale->code,
                 'weight' => number_format($reading->weightKg, 3, ',', '.'),
-            ]))
-            ->body($reading->raw);
+            ]));
 
         $reading->stable ? $notification->success() : $notification->warning();
         $notification->send();
