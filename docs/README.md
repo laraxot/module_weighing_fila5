@@ -89,9 +89,24 @@ Le due azioni "Leggi bilancia" prendono i testi dal lang di Weighing (`read_scal
 - `allowed_scale_hosts` (env `WEIGHING_ALLOWED_SCALE_HOSTS`, separati da virgola, letta via `config('env.*')`: la chiave va aggiunta a `config/env.php` della base): indirizzi a cui il server può collegarsi. Vuota = solo IP privati di LAN (10/8, 172.16/12, 192.168/16, fc00::/7) e hostname che si risolvono lì. Valorizzata = solo IP, CIDR, hostname esatti o `*.dominio` elencati. Metadata cloud, link-local, 0.0.0.0/8 e multicast sempre vietati.
 - `scale_ports.min|max`: porte ammesse per gli indicatori (default 1024–65535).
 - `require_valid_verification`: obbligo di verificazione periodica valida.
+- `read_rate_limit`: letture "Leggi bilancia" al minuto (per IP e azione).
 
 ## Requisiti del progetto
 
 - La connessione database `weighing` la crea il modulo Tenant, copiando la connessione predefinita per ogni modulo attivo. Va definita a mano in `config/{tenant}/database.php` solo se il modulo deve usare un database diverso.
 - Test: `tests/TestCase.php` usa lo sqlite condiviso di Xot e crea le tabelle mancanti con `XotModuleSchema::ensure('Weighing')`. Il test di lettura TCP con dati reali richiede `pcntl` e altrimenti viene saltato.
-- Permessi Spatie usati dalle policy: `scale.*`, `weighing.*` (`viewAny`, `view`, `create`, `update`). I ticket non si cancellano.
+- Permessi Spatie usati dalle policy: `scale.*` (`viewAny`, `view`, `create`, `update`, `delete`, `readScale`) e `weighing.*` (`viewAny`, `view`, `create`, `update`, `void`). I ticket non si cancellano. Li crea `WeighingPermissionSeeder` (idempotente, guard `web`, richiamato da `WeighingDatabaseSeeder`) insieme al ruolo `weighing::admin` (nome = id del pannello) con tutti i permessi del modulo.
+
+## Autorizzazione
+
+- `ScalePolicy` e `WeighingPolicy` usano `DeniesUndeclaredFilamentAbilities` (Xot): eliminazione massiva, replica, riordino, collegamenti… negati se non dichiarati.
+- Le azioni custom controllano un'abilità, non solo lo stato del ticket:
+
+| Azione | Abilità | Permesso |
+|---|---|---|
+| Leggi bilancia (`ReadScaleHeaderAction`, `ReadScaleFieldAction`, anche in altri moduli) | `readScale` su `Scale` (anche prima della lettura) | `scale.readScale` |
+| Nuova pesata, pesata singola | `create` | `weighing.create` |
+| Seconda pesata (chiusura) | `update` | `weighing.update` |
+| Annulla ticket | `void` | `weighing.void` |
+
+- "Leggi bilancia" ha `rateLimit` (`weighing.read_rate_limit`, default 30 al minuto per IP e azione).

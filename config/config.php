@@ -52,6 +52,9 @@ return [
         'max' => 65535,
     ],
 
+    // Letture "Leggi bilancia" al minuto dalle azioni Filament (rateLimit: per IP, componente e azione).
+    'read_rate_limit' => 30,
+
     // Driver `fake`: lettura fissa per test e demo.
     'fake' => [
         'weight_kg' => 12500.0,
