@@ -66,29 +66,39 @@ describe('OpenWeighingAction / CloseWeighingAction', function (): void {
     });
 
     test('rejects a second weight that makes the net negative', function (): void {
-        $weighing = app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 10_000.0);
+        TestCase::assertCallbackThrows(InvalidArgumentException::class, function (): void {
+            $weighing = app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 10_000.0);
 
-        app(CloseWeighingAction::class)->execute($weighing, 12_000.0);
-    })->throws(InvalidArgumentException::class);
+            app(CloseWeighingAction::class)->execute($weighing, 12_000.0);
+        });
+    });
 
     test('cannot close a ticket twice', function (): void {
-        $weighing = app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 20_000.0);
-        app(CloseWeighingAction::class)->execute($weighing, 8_000.0);
+        TestCase::assertCallbackThrows(InvalidArgumentException::class, function (): void {
+            $weighing = app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 20_000.0);
+            app(CloseWeighingAction::class)->execute($weighing, 8_000.0);
 
-        app(CloseWeighingAction::class)->execute($weighing, 7_000.0);
-    })->throws(InvalidArgumentException::class);
+            app(CloseWeighingAction::class)->execute($weighing, 7_000.0);
+        });
+    });
 
     test('refuses a scale with expired verification', function (): void {
-        app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 20_000.0, Scale::factory()->verificationExpired()->create());
-    })->throws(ScaleUnavailableException::class);
+        TestCase::assertCallbackThrows(ScaleUnavailableException::class, function (): void {
+            app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 20_000.0, Scale::factory()->verificationExpired()->create());
+        });
+    });
 
     test('refuses a weight above the scale capacity', function (): void {
-        app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 70_000.0, Scale::factory()->create());
-    })->throws(ScaleUnavailableException::class);
+        TestCase::assertCallbackThrows(ScaleUnavailableException::class, function (): void {
+            app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 70_000.0, Scale::factory()->create());
+        });
+    });
 
     test('refuses a non positive weight', function (): void {
-        app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 0.0);
-    })->throws(InvalidArgumentException::class);
+        TestCase::assertCallbackThrows(InvalidArgumentException::class, function (): void {
+            app(OpenWeighingAction::class)->execute(WeighingDirectionEnum::INBOUND, 0.0);
+        });
+    });
 });
 
 describe('GenerateWeighingTicketNumberAction', function (): void {
@@ -167,16 +177,20 @@ describe('VoidWeighingAction / AttachWeighingAction / immutability', function ()
     });
 
     test('forbids changing the weights of a closed ticket', function (): void {
-        $weighing = app(RecordSingleWeighingAction::class)->execute(500.0);
+        TestCase::assertCallbackThrows(WeighingLockedException::class, function (): void {
+            $weighing = app(RecordSingleWeighingAction::class)->execute(500.0);
 
-        $weighing->net_kg = Weighing::kgToStorage(600.0);
-        $weighing->save();
-    })->throws(WeighingLockedException::class);
+            $weighing->net_kg = Weighing::kgToStorage(600.0);
+            $weighing->save();
+        });
+    });
 
     test('forbids voiding twice', function (): void {
-        $weighing = app(RecordSingleWeighingAction::class)->execute(500.0);
-        app(VoidWeighingAction::class)->execute($weighing, 'Errore');
+        TestCase::assertCallbackThrows(InvalidArgumentException::class, function (): void {
+            $weighing = app(RecordSingleWeighingAction::class)->execute(500.0);
+            app(VoidWeighingAction::class)->execute($weighing, 'Errore');
 
-        app(VoidWeighingAction::class)->execute($weighing, 'Ancora');
-    })->throws(InvalidArgumentException::class);
+            app(VoidWeighingAction::class)->execute($weighing, 'Ancora');
+        });
+    });
 });

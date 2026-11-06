@@ -58,8 +58,10 @@ beforeEach(function (): void {
 
 describe('TcpAsciiScaleDriver', function (): void {
     test('fails with a domain exception when the host is missing', function (): void {
-        (new TcpAsciiScaleDriver)->read(weighingTcpScale(null, 4001));
-    })->throws(ScaleConnectionException::class);
+        TestCase::assertCallbackThrows(ScaleConnectionException::class, function (): void {
+            (new TcpAsciiScaleDriver)->read(weighingTcpScale(null, 4001));
+        });
+    });
 
     test('fails with a domain exception when the indicator refuses the connection, without the socket error', function (): void {
         [$server, $port] = weighingListeningServer();
@@ -73,19 +75,29 @@ describe('TcpAsciiScaleDriver', function (): void {
         }
     });
 
-    test('never connects to loopback, metadata or public addresses without an allowlist', function (string $host): void {
-        config(['weighing.allowed_scale_hosts' => []]);
+    test('never connects to loopback, metadata or public addresses without an allowlist', function (): void {
+        $check = function (string $host): void {
+            config(['weighing.allowed_scale_hosts' => []]);
 
-        (new TcpAsciiScaleDriver)->read(weighingTcpScale($host, 4001));
-    })->throws(ScaleAddressNotAllowedException::class)->with(['127.0.0.1', '169.254.169.254', 'localhost', '8.8.8.8']);
+            (new TcpAsciiScaleDriver)->read(weighingTcpScale($host, 4001));
+        };
+
+        foreach (['127.0.0.1', '169.254.169.254', 'localhost', '8.8.8.8'] as $case) {
+            TestCase::assertCallbackThrows(ScaleAddressNotAllowedException::class, static function () use ($check, $case): void {
+                $check($case);
+            });
+        }
+    });
 
     test('rejects ports outside the configured range', function (): void {
-        (new TcpAsciiScaleDriver)->read(weighingTcpScale('127.0.0.1', 22));
-    })->throws(ScaleAddressNotAllowedException::class);
+        TestCase::assertCallbackThrows(ScaleAddressNotAllowedException::class, function (): void {
+            (new TcpAsciiScaleDriver)->read(weighingTcpScale('127.0.0.1', 22));
+        });
+    });
 
     test('does not echo unreadable device output in the error message', function (): void {
         if (! function_exists('pcntl_fork')) {
-            test()->markTestSkipped('pcntl non disponibile');
+            Assert::markTestSkipped('pcntl non disponibile');
         }
 
         [$server, $port] = weighingListeningServer();
@@ -112,18 +124,20 @@ describe('TcpAsciiScaleDriver', function (): void {
     });
 
     test('times out when the indicator sends nothing', function (): void {
-        [$server, $port] = weighingListeningServer();
+        TestCase::assertCallbackThrows(ScaleTimeoutException::class, function (): void {
+            [$server, $port] = weighingListeningServer();
 
-        try {
-            (new TcpAsciiScaleDriver)->read(weighingTcpScale('127.0.0.1', $port));
-        } finally {
-            fclose($server);
-        }
-    })->throws(ScaleTimeoutException::class);
+            try {
+                (new TcpAsciiScaleDriver)->read(weighingTcpScale('127.0.0.1', $port));
+            } finally {
+                fclose($server);
+            }
+        });
+    });
 
     test('returns the first stable reading of a continuous stream', function (): void {
         if (! function_exists('pcntl_fork')) {
-            test()->markTestSkipped('pcntl non disponibile');
+            Assert::markTestSkipped('pcntl non disponibile');
         }
 
         [$server, $port] = weighingListeningServer();

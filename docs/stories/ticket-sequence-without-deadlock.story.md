@@ -32,7 +32,7 @@ così da **non vedere errori di database casuali nei momenti di coda al ponte ba
 ## Soluzione
 
 - Un'unica istruzione crea o incrementa il contatore: `upsert` su `weighing_sequences` (unique `year`) con
-  `last_number = weighing_sequences.last_number + 1`. Il lock esclusivo si prende subito; poi si rilegge il valore.
+  `last_number = last_number + 1`. Il lock esclusivo si prende subito; poi si rilegge il valore.
 - Se chiamata fuori da una transazione apre la propria con 3 tentativi sugli errori di concorrenza; dentro una
   transazione esterna partecipa a quella (nessun savepoint inutile).
 - `OpenWeighingAction` e `RecordSingleWeighingAction` aprono la transazione con 3 tentativi (`ATTEMPTS`).

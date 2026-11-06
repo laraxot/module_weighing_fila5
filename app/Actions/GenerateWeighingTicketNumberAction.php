@@ -35,13 +35,11 @@ class GenerateWeighingTicketNumberAction
         $year = ($at ?? now()->toImmutable())->year;
         $connection = (new WeighingSequence)->getConnection();
 
-        $next = static function () use ($year, $connection): string {
-            $column = $connection->getQueryGrammar()->wrap((new WeighingSequence)->getTable().'.last_number');
-
+        $next = static function () use ($year): string {
             WeighingSequence::query()->upsert(
                 [['year' => $year, 'last_number' => 1]],
                 ['year'],
-                ['last_number' => new Expression($column.' + 1')],
+                ['last_number' => new Expression('last_number + 1')],
             );
 
             $number = WeighingSequence::query()
