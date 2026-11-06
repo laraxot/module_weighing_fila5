@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use Carbon\CarbonImmutable;
 use Modules\Weighing\Actions\AttachWeighingAction;
 use Modules\Weighing\Actions\CloseWeighingAction;
 use Modules\Weighing\Actions\GenerateWeighingTicketNumberAction;
@@ -14,6 +15,7 @@ use Modules\Weighing\Exceptions\ScaleUnavailableException;
 use Modules\Weighing\Exceptions\WeighingLockedException;
 use Modules\Weighing\Models\Scale;
 use Modules\Weighing\Models\Weighing;
+use Modules\Weighing\Models\WeighingSequence;
 use Modules\Weighing\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -96,6 +98,36 @@ describe('GenerateWeighingTicketNumberAction', function (): void {
 
         Assert::assertSame((int) substr($first, -6) + 1, (int) substr($second, -6));
         Assert::assertSame(substr($first, 0, 7), substr($second, 0, 7));
+    });
+
+    test('creates the counter of a new year with a single statement and starts from 1', function (): void {
+        $year = 2091;
+        WeighingSequence::query()->where('year', $year)->delete();
+        $at = CarbonImmutable::create($year, 3, 1);
+        Assert::assertInstanceOf(CarbonImmutable::class, $at);
+
+        Assert::assertSame('W-2091-000001', app(GenerateWeighingTicketNumberAction::class)->execute($at));
+        Assert::assertSame('W-2091-000002', app(GenerateWeighingTicketNumberAction::class)->execute($at));
+        Assert::assertSame(1, WeighingSequence::query()->where('year', $year)->count());
+        Assert::assertSame(2, WeighingSequence::query()->where('year', $year)->value('last_number'));
+    });
+
+    test('rolls the number back with the caller transaction, leaving no gap', function (): void {
+        $at = CarbonImmutable::create(2092, 1, 1);
+        Assert::assertInstanceOf(CarbonImmutable::class, $at);
+        $connection = (new WeighingSequence)->getConnection();
+        $first = app(GenerateWeighingTicketNumberAction::class)->execute($at);
+
+        try {
+            $connection->transaction(static function () use ($at): void {
+                app(GenerateWeighingTicketNumberAction::class)->execute($at);
+
+                throw new RuntimeException('rollback');
+            });
+        } catch (RuntimeException) {
+        }
+
+        Assert::assertSame((int) substr($first, -6) + 1, (int) substr(app(GenerateWeighingTicketNumberAction::class)->execute($at), -6));
     });
 });
 

@@ -41,7 +41,7 @@ Regole delle pesate:
 - `internal`: come `inbound`.
 - Pesata singola: direzione `internal`, ticket già chiuso, lordo = netto, tara = 0.
 
-Il numero di ticket si genera nella stessa transazione che salva la pesata. Il contatore dell'anno viene creato con `insertOrIgnore` e incrementato sotto `lockForUpdate`, quindi due pesate concorrenti non possono avere lo stesso numero.
+Il numero di ticket si genera nella stessa transazione che salva la pesata. Il contatore dell'anno si crea o si incrementa con **una sola istruzione** (`upsert`: `INSERT … ON DUPLICATE KEY UPDATE last_number = last_number + 1`), che prende subito il lock esclusivo sulla riga; il valore si rilegge nella stessa transazione. Due pesate concorrenti non hanno lo stesso numero e un rollback non lascia buchi. Il vecchio `insertOrIgnore` + `SELECT … FOR UPDATE` andava in deadlock con pesate concorrenti (lock condiviso da convertire in esclusivo). `OpenWeighingAction` e `RecordSingleWeighingAction` ripetono la transazione fino a 3 volte sugli errori di concorrenza quando sono la transazione esterna; dentro una transazione aperta da un altro modulo (es. `RunInPlantTransactionAction` di Roosko) il retry spetta a chi la apre.
 
 Le pesate si registrano solo su bilance attive, con verificazione periodica valida (`verified_until`, disattivabile con `weighing.require_valid_verification`) ed entro la portata massima. Con bilancia `null` il peso è digitato e non c'è nessun controllo sullo strumento.
 
@@ -86,7 +86,7 @@ Le due azioni "Leggi bilancia" prendono i testi dal lang di Weighing (`read_scal
 
 - `tcp_ascii.*`: timeout, righe massime, comando di richiesta, porta di default, regex del peso, marcatore di stabilità, fattore di unità.
 - `fake.weight_kg|stable`: la lettura simulata.
-- `allowed_scale_hosts` (env `WEIGHING_ALLOWED_SCALE_HOSTS`, separati da virgola): indirizzi a cui il server può collegarsi. Vuota = solo IP privati di LAN (10/8, 172.16/12, 192.168/16, fc00::/7) e hostname che si risolvono lì. Valorizzata = solo IP, CIDR, hostname esatti o `*.dominio` elencati. Metadata cloud, link-local, 0.0.0.0/8 e multicast sempre vietati.
+- `allowed_scale_hosts` (env `WEIGHING_ALLOWED_SCALE_HOSTS`, separati da virgola, letta via `config('env.*')`: la chiave va aggiunta a `config/env.php` della base): indirizzi a cui il server può collegarsi. Vuota = solo IP privati di LAN (10/8, 172.16/12, 192.168/16, fc00::/7) e hostname che si risolvono lì. Valorizzata = solo IP, CIDR, hostname esatti o `*.dominio` elencati. Metadata cloud, link-local, 0.0.0.0/8 e multicast sempre vietati.
 - `scale_ports.min|max`: porte ammesse per gli indicatori (default 1024–65535).
 - `require_valid_verification`: obbligo di verificazione periodica valida.
 

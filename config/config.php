@@ -38,9 +38,13 @@ return [
      * Vuota: solo IP privati di LAN (10/8, 172.16/12, 192.168/16, fc00::/7) e hostname che si
      * risolvono li'; niente loopback ne' indirizzi pubblici. Valorizzata: solo le voci elencate,
      * IP, CIDR (es. '192.168.10.0/24'), hostname esatti o '*.dominio'. Metadata cloud e link-local
-     * restano sempre vietati.
+     * restano sempre vietati. Env WEIGHING_ALLOWED_SCALE_HOSTS (separati da virgola) letta
+     * da config('env.*'): la chiave va aggiunta a config/env.php della base.
      */
-    'allowed_scale_hosts' => array_values(array_filter(array_map('trim', explode(',', (string) env('WEIGHING_ALLOWED_SCALE_HOSTS', ''))))),
+    'allowed_scale_hosts' => array_values(array_filter(array_map(
+        trim(...),
+        explode(',', is_string($hosts = config('env.WEIGHING_ALLOWED_SCALE_HOSTS')) ? $hosts : ''),
+    ))),
 
     // Porte ammesse per gli indicatori di rete (niente SSH, SMTP, HTTP...).
     'scale_ports' => [
